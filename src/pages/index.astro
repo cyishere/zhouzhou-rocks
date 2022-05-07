@@ -1,0 +1,28 @@
+---
+// import { posts } from "@utils/data";
+import Layout from '@layouts/HomeLayout.astro';
+import PostListSection from "@components/PostListSection.astro";
+import PostList from "@components/PostList.astro";
+
+const max = 6;
+
+const allPosts = await Astro.glob('./posts/*.md');
+let posts = [...allPosts];
+posts = posts.sort((a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf()).slice(0, max);
+
+const more = allPosts.length <= max ? false : true;
+---
+
+<Layout title="Welcome to Notebook.">
+	<main>
+		<PostListSection title="Latest Article">
+			<PostList posts={posts} more={more}  />
+		</PostListSection>
+	</main>
+</Layout>
+
+<style>
+	main {
+		padding: 0 32px;
+	}
+</style>

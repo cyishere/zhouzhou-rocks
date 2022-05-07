@@ -1,0 +1,36 @@
+---
+import Menu from "@components/Menu/index.ts";
+---
+
+<header>
+  <a href="/" class="logo">
+    <img src="/assets/logo-sm-accent.png" alt="">
+    <span>Notebook of Screenwriting</span>
+  </a>
+  <Menu client:load />
+</header>
+
+<style>
+  header {
+    padding: 48px;
+    background-color: var(--clr-white);
+  }
+
+  .logo {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  img {
+    display: inline-block;
+  }
+
+  span {
+    font-size: 2rem;
+    font-family: var(--ff-heading);
+    color: var(--clr-secondary);
+    margin-top: 1em;
+  }
+</style>

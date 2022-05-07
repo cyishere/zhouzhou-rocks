@@ -1,0 +1,117 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+#root, #__next {
+  isolation: isolate;
+}
+
+html {
+  /* colors */
+  --clr-primary: hsl(257deg 27% 36%);
+  --clr-secondary: hsl(258deg 14% 48%);
+  --clr-accent: hsl(31deg 94% 51%);
+  --clr-bg: hsl(17deg 24% 94%);
+  --clr-white: hsl(0deg 0% 100%);
+
+  /* fonts */
+  --ff-primary: 'Poppins', sans-serif; /* 400, 600 */
+  --ff-heading: 'Playfair Display', serif; /* 400(italic), 600, 700 */
+  --ff-secondary: 'Playfair Display SC', serif; /* 400, 700 */
+
+  /* font weights */
+  --fw-regular: 400;
+  --fw-semiBold: 600;
+  --fw-bold: 700;
+
+  /* layouts */
+  --max-w: 1200px;
+
+  font-size: 18px;
+
+  /* for Reach UI */
+  --reach-dialog: 1;
+}
+
+body {
+  font-size: 1rem;
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-regular);
+  line-height: 1.5;
+  color: var(--clr-primary);
+  background-color: var(--clr-bg);
+}
+
+a {
+  font-weight: var(--fw-semiBold);
+  color: var(--clr-primary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--clr-accent);
+  text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--ff-heading);
+  line-height: 1.2;
+}
+
+/* ============== */
+/* Post ========= */
+/* ============== */
+.flow > * + *:not(img) {
+  margin-top: var(--flow, 1.4em);
+}
+
+article {
+  font-size: 1.12rem;
+  line-height: 1.7;
+}
+
+article a {
+  background-color: transparent;
+  background-image: linear-gradient(transparent 83%, var(--clr-secondary) 0, var(--clr-secondary) 90%,transparent 0,transparent);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: .2em 0;
+}
+
+a:hover {
+  background-size: 0 100%;
+  transition: background 300ms;
+}
+
+article em {
+  font-style: italic;
+  color: var(--clr-accent);
+}
+
+article > p img {
+  display: block;
+  margin: 2rem auto;
+}

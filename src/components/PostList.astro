@@ -1,0 +1,62 @@
+---
+import Card from "@components/Card/index.ts";
+import { ButtonLink } from "@components/Button/index.ts";
+
+const props = Astro.props;
+
+let postsMeta = [];
+const posts = props.posts;
+const more = props.more !== undefined ? props.more : true;
+
+if (posts) {
+  posts.forEach((post) => {
+    postsMeta.push({
+      title: post?.frontmatter?.title,
+      excerpt: post?.frontmatter?.excerpt,
+      date: post?.frontmatter?.date,
+      cover: post?.frontmatter?.cover,
+      coverAlt: post?.frontmatter?.coverAlt,
+      link: post?.url,
+    })
+  })
+}
+
+---
+<div class="wrapper">
+  {postsMeta.length > 0 ? (
+    postsMeta.map((post, i) => (
+      <div class="spacing">
+        <Card key={i} {...post} client:load />
+      </div>
+    ))
+  ) : (
+    <p class="text">No post yet.</p>
+  )}
+  
+
+  {more ? (
+    <div class="more">
+      <ButtonLink link="/posts" client:load>More Articles</ButtonLink>
+    </div>
+  ) : null}
+</div>
+
+<style>
+  .wrapper {
+    margin-top: 104px;
+  }
+
+  .spacing {
+    margin-top: 64px;
+  }
+
+  .text {
+    text-align: center;
+  }
+
+  .more {
+    margin-top: 96px;
+    display: grid;
+    place-content: center;
+  }
+</style>

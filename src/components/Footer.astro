@@ -50,6 +50,21 @@
     gap: 16px;
   }
 
+  @keyframes spinning {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .socials a:hover {
+      animation: spinning 500ms ease;
+    }
+  }
+
   @media (max-width: 1200px) {
     footer {
       padding-left: 32px;

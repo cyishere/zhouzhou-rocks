@@ -99,8 +99,10 @@
   animation: popUp 300ms ease;
 }
 
-.close:hover {
-  animation: spinning 300ms ease;
+@media (prefers-reduced-motion: no-preference) {
+  .close:hover {
+    animation: spinning 300ms ease;
+  }
 }
 
 .btn:focus {

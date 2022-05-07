@@ -115,3 +115,23 @@ article > p img {
   display: block;
   margin: 2rem auto;
 }
+
+article ul {
+  list-style: none;
+  padding-left: 1.5em;
+}
+
+article ul li {
+  padding-left: 1.5em;
+  position: relative;
+}
+
+article ul li::before {
+  content: "";
+  background-color: var(--clr-accent);
+  width: 12px;
+  height: 4px;
+  position: absolute;
+  left: 0;
+  top: 0.7em;
+}

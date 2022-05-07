@@ -17,9 +17,11 @@ During the process of learning to write screenplays, I've been testing the water
 
 Since 2021, I've made a conscious effort to write in English in order to advance.
 
-Here are some of the things I've done：（the longline/synopsis will show on the Portfolio page.）
+Here are some of the things I've done：
 
-* "Time Difference" and “Beijing Solstice"（both are feature film screenplays） have won awards in China Film Administration’s script competitions.
+* "Time Difference" and “Beijing Solstice"(both are feature film screenplays)have won awards in China Film Administration’s script competitions.
 * The short film “Taste of Home" won the gold medal in the 14th Shandong Short film Competition.
 * Co-wrote"Say my name", a short film directed by Ng Chun-Yu and released in 2021.
 * Feature Film Screenplay "Lost in years" was short-listed for The Elite project+screenwriting workshop by Wanda Pictures.
+
+  _The longline/synopsis will show on the Portfolio page._

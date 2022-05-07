@@ -1,0 +1,14 @@
+---
+label: Page Layout
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  default: "@layouts/PageLayout.astro"
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true

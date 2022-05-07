@@ -1,0 +1,31 @@
+---
+label: Post Layout
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  default: "@layouts/PostLayout.astro"
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: text
+  name: excerpt
+  label: Excerpt
+- type: datetime
+  name: date
+  label: Date
+  default: now
+- type: file
+  name: cover
+  label: Cover Image
+- name: coverAlt
+  type: text
+  config:
+    required: false
+  label: Cover Image Description
+pages:
+- src/pages/posts/add-a-new-post-through-forestry.md

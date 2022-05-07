@@ -14,8 +14,8 @@ sections:
   label: Post
   create: documents
   match: "**/*"
-upload_dir: uploads
-public_path: "/uploads"
+upload_dir: public/assets/images
+public_path: "/assets/images"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"

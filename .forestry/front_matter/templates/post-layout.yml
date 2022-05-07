@@ -5,15 +5,24 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
 - type: text
   name: title
-  label: title
+  label: Title
+  config:
+    required: true
 - type: text
   name: excerpt
-  label: excerpt
+  label: Excerpt
 - type: datetime
   name: date
-  label: date
+  label: Date
+  default: now
 - type: file
   name: cover
-  label: cover
+  label: Cover Image
+- name: coverAlt
+  type: text
+  config:
+    required: false
+  label: Cover Image Description

@@ -8,7 +8,7 @@ sections:
   path: src/pages
   label: Page
   create: documents
-  match: "**/*"
+  match: "*"
 - type: directory
   path: src/pages/posts
   label: Post

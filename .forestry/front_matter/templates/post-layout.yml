@@ -27,5 +27,3 @@ fields:
   config:
     required: false
   label: Cover Image Description
-pages:
-- src/pages/posts/add-a-new-post-through-forestry.md

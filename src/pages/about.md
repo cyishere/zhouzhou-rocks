@@ -13,9 +13,9 @@ When I was 17, I received an offer from Beijing Normal University to study film 
 
 I resumed writing screenplays and making short films after producing some commercials and promos to support myself as a filmmaker and writer. Yang Qin's Weekend(a short film)sparked my passion for writing. My friend and I had written some screenplays until 2018, and we were stuck. We started looking for a way out. I am now a graduate student at Beijing Film Academy, where I am majoring in screenwriting and beginning my screenwriting career.
 
-During the process of learning to write screenplays, I've been testing the waters in various genres. More and more, I recognize that I am very interested in the Culture Differences theme and writing Asian (especially ladies) stories. Not only some cultural conflict always appears in my daily life, but it also more and more friends of mine move/immigrate to another country to live, I saw their happiness and struggles in their life, which all touched and hit me deeply.
+During the process of learning to write screenplays, I've been testing the waters in several genres. I'm realizing that I'm really into the Culture Differences subject and creating Asian (particularly female) stories. Not only does some cultural clash always emerges in my daily life, but it also more and more friends of mine move/immigrate to another country to live, I observed their happiness and hardships in their life, which all touched and hit me profoundly.
 
-Since 2021, I've endeavoured to write in English in furthering.
+Since 2021, I've made a conscious effort to write in English in order to advance.
 
 Here are some of the things I've done：（the longline/synopsis will show on the Portfolio page.）
 

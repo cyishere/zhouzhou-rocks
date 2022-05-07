@@ -1,0 +1,19 @@
+---
+label: Post Layout
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: excerpt
+  label: excerpt
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: cover
+  label: cover

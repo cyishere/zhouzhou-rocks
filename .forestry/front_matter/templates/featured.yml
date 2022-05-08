@@ -1,4 +1,21 @@
 ---
 label: Featured
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: post
+  type: select
+  default: []
+  config:
+    required: true
+    options: []
+    source:
+      type: pages
+      section: post
+      file: 
+      path: 
+  label: Post

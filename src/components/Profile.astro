@@ -1,0 +1,76 @@
+---
+import { Markdown } from "astro/components";
+
+const { profile } = Astro.props;
+---
+<section class="profile">
+  <img src={profile.frontmatter.avatar} alt="" class="avatar">
+  <article class="profile_text">
+    <Markdown class="greeting">{profile.frontmatter.greeting}</Markdown>
+    <p class="sub-greeting">{profile.frontmatter.subGreeting}</p>
+    <p class="statement">{profile.frontmatter.statement}</p>
+    <p class="sub-statement">{profile.frontmatter.subStatement}</p>
+    <p class="intro">{profile.frontmatter.intro}</p>
+  </article>
+</section>
+
+<style>
+	.profile {
+		max-width: var(--max-w);
+		padding: 48px 0;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+		gap: 64px;
+	}
+
+	.profile_text {
+		flex: 1;
+	}
+
+	.greeting {
+		font-size: 2rem;
+	}
+
+	.greeting strong {
+		color: var(--clr-accent);
+	}
+
+	.statement {
+		font-size: 2.67rem;
+		font-family: var(--ff-heading);
+		line-height: 1.2;
+    margin-top: 1rem;
+	}
+
+	[class^="sub"] {
+		color: var(--clr-thirdly);
+	}
+
+	.intro {
+		color: var(--clr-secondary);
+		margin-top: 1.2em;
+	}
+
+	@media (max-width: 1024px) {
+		.avatar {
+			max-width: 300px;
+		}
+	}
+
+	@media (max-width: 768px) {
+		.profile {
+			flex-direction: column;
+		}
+	}
+
+	@media (max-width: 600px) {
+		.greeting {
+			font-size: 1.5rem;
+		}
+
+		.statement {
+			font-size: 2rem;
+		}
+	}
+</style>

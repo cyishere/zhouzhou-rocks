@@ -26,3 +26,5 @@ fields:
     schema:
       format: markdown
   label: Caption
+pages:
+- src/pages/portfolio/taste-of-home.md

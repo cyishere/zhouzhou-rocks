@@ -19,11 +19,15 @@ sections:
   label: Page
   create: documents
   match: "*"
+  templates:
+  - page-layout
 - type: directory
   path: src/pages/posts
   label: Post
   create: documents
   match: "**/*"
+  templates:
+  - post-layout
 upload_dir: public/assets/images
 public_path: "/assets/images"
 front_matter_path: ''

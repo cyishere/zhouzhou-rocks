@@ -1,0 +1,46 @@
+---
+import ProjectCard from "./Card/ProjectCard.astro";
+import type { ProjectMeta } from "@utils/types";
+
+const props = Astro.props;
+
+let projectsMeta: ProjectMeta[] = [];
+const projects = props.projects;
+
+if (projects) {
+  projects.forEach((project) => {
+    projectsMeta.push({
+      project_title: project?.frontmatter?.project_title,
+      caption: project?.frontmatter?.caption,
+      cover_image: project?.frontmatter?.cover_image,
+      cover_alt: project?.frontmatter?.cover_alt,
+    })
+  })
+}
+
+---
+<div class="wrapper">
+  {projectsMeta.length > 0 ? (
+    projectsMeta.map((project, i) => (
+      <div class="spacing">
+        <ProjectCard {...project} />
+      </div>
+    ))
+  ) : (
+    <p class="text">No project yet.</p>
+  )}
+</div>
+
+<style>
+  .wrapper {
+    margin-top: 104px;
+  }
+
+  .spacing {
+    margin-top: 64px;
+  }
+
+  .text {
+    text-align: center;
+  }
+</style>

@@ -119,7 +119,7 @@ article > p img {
 
 article ul {
   list-style: none;
-  padding-left: 1.5em;
+  padding-left: 6px;
 }
 
 article ul li {

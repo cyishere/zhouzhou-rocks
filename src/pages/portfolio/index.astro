@@ -1,0 +1,33 @@
+---
+import Layout from '@layouts/MainLayout.astro';
+import PostListSection from "@components/PostListSection.astro";
+import ProjectList from "@components/ProjectList.astro";
+import type { ProjectMeta } from '@utils/types';
+
+const allProjects = await Astro.glob<ProjectMeta>('./*.md');
+let projects = [...allProjects];
+projects = projects.sort((a, b) => a.frontmatter.order - b.frontmatter.order);
+---
+
+<Layout title="Portfolio | Welcome to Notebook.">
+	<main>
+    <PostListSection title="Portfolio">
+      <ProjectList projects={projects} more={false} />
+    </PostListSection>
+  </main>
+</Layout>
+
+<style>
+	main {
+		max-width: var(--max-w);
+		padding: 64px 0;
+		margin: 0 auto;
+	}
+
+	h2 {
+		font-family: var(--ff-secondary);
+		font-size: 2rem;
+		font-weight: var(--fw-bold);
+		text-align: center;
+	}
+</style>

@@ -1,0 +1,75 @@
+---
+import { Markdown } from "astro/components";
+import { ProjectMeta } from "@utils/types";
+
+const { project_title, caption, cover_image, cover_alt } = Astro.props as ProjectMeta;
+const alt = cover_alt ? cover_alt : "";
+---
+
+<article class="card">
+  <div class="body">
+    <h3 class="title">{project_title}</h3>
+    <div class="excerpt flow">
+      <Markdown>{caption}</Markdown>
+    </div>
+  </div>
+  {cover_image ? (
+    <img
+      src={cover_image}
+      alt={alt}
+      class="img"
+    />
+  ) : null}
+</article>
+
+<style>
+  .card {
+    padding: 32px;
+    display: flex;
+    align-items: flex-start;
+    gap: 72px;
+  }
+
+  .body {
+    flex: 1;
+  }
+
+  .title {
+    font-size: 2rem;
+    font-weight: var(--fw-semiBold);
+    margin-top: 12px;
+  }
+
+  .excerpt {
+    font-size: 1.2rem;
+    font-weight: var(--fw-regular);
+    color: var(--clr-secondary);
+    margin-top: 20px;
+  }
+
+  .img {
+    display: block;
+    max-width: 500px;
+    width: 100%;
+  }
+
+  @media (max-width: 1024px) {
+    .img {
+      width: 200px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .card {
+      flex-direction: column;
+      justify-content: flex-end;
+      gap: 36px;
+    }
+
+    .img {
+      width: 100%;
+      max-width: 100%;
+      order: -1;
+    }
+  }
+</style>

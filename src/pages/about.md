@@ -3,7 +3,7 @@ layout: "@layouts/PageLayout.astro"
 title: About Me
 
 ---
-![](/assets/images/截屏2022-05-07-11.17.53.png)
+![](/assets/images/个人图片-圆形.png)
 
 Hello! It's a pleasure to meet you here! I am Zhou Zhou, you can call me Jojo.
 

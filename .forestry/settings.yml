@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: "/admin"
 webhook_url: 
 sections:
+- type: document
+  path: src/sections/profile.md
+  label: Profile
+  match: "**/*"
 - type: directory
   path: src/pages
   label: Page

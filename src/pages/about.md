@@ -7,7 +7,7 @@ title: About Me
 
 Hello! It's a pleasure to meet you here! I am Zhou Zhou, you can call me Jojo.
 
-I am a Chinese screenwriter.
+I am a Chinese screenwriter. Though this doesn't from the beginning.
 
 When I was 17, I received an offer from Beijing Normal University to study film and stepped out of music. That's an incredible four years of film studies as a student. After graduation, I got my first job as a screenwriter. I joined a comedy crew in Hunan. Unfortunately, I failed because I couldn't stand the weather. Then I went back to Beijing to get things going.
 

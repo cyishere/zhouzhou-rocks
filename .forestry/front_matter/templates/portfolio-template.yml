@@ -1,4 +1,28 @@
 ---
-label: Portfolio Template
+label: Project Template
 hide_body: true
-fields: []
+fields:
+- name: project_title
+  type: text
+  config:
+    required: true
+  label: Project Title
+- name: cover_image
+  type: file
+  config:
+    maxSize: 64
+  label: Cover Image
+- name: cover_alt
+  type: text
+  config:
+    required: false
+  label: Cover Image Description
+- name: caption
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Caption

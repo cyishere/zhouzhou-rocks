@@ -8,12 +8,16 @@ fields:
 - type: text
   name: greeting
   label: greeting
+  config:
+    required: true
 - type: text
   name: subGreeting
   label: subGreeting
 - type: text
   name: statement
   label: statement
+  config:
+    required: true
 - type: text
   name: subStatement
   label: subStatement

@@ -1,13 +1,14 @@
 ---
 project_title: Taste of Home
 cover_image: "/assets/images/p1-2.png"
-cover_alt: ""
+cover_alt: Poster of Taste of Home
 caption: |-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  Tang Xin hasn't been home for Chinese New Year in several years because of the parents' significant birth stress. She loves but constantly opposes her parents. She decides to skip the family's spring festival because her doctor's husband needs to stay in the hospital to treat Covid-19 sufferers. Her parents brought her some handmade food to welcome the new year at this time.
 
-  * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  * Lorem ipsum dolor sit amet, consect
-  * Lorem ipsum dolor sit amet, consect
+  * Shortfilm, 10mins
+  * Director:Minjie Huang.
+  * Award: The gold medal in the 14th Shandong Short film Competition
 order: 1
-created_at: 2022-05-09T10:43:14.560Z
+created_at: 2022-05-09T10:43:14.560+00:00
+
 ---

@@ -49,4 +49,5 @@ fields:
   hidden: true
   default: now
 pages:
+- src/pages/portfolio/say-my-name.md
 - src/pages/portfolio/taste-of-home.md

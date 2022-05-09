@@ -36,3 +36,5 @@ fields:
     schema:
       format: markdown
   label: Intro
+pages:
+- src/sections/profile.md

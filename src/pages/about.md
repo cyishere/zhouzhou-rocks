@@ -5,7 +5,7 @@ title: About Me
 ---
 ![](/assets/images/截屏2022-05-07-11.17.53.png)
 
-Hello! It's a pleasure to meet you here! I am Zhou Zhou, and many of my friends call me Jojo.
+Hello! It's a pleasure to meet you here! I am Zhou Zhou, you can call me Jojo.
 
 I am a Chinese screenwriter.
 

@@ -1,6 +1,6 @@
 ---
 avatar: "/assets/images/avatar.png"
-greeting: Hello, I'm _Zhou Zhou_.
+greeting: Hello, I'm **Zhou Zhou**.
 subGreeting: Many friends call me JOJO ♥️.
 statement: I am a Screenwriter.
 subStatement: I write in both Chinese and English.

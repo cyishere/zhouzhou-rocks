@@ -1,0 +1,22 @@
+---
+label: Profile Template
+hide_body: true
+fields:
+- type: file
+  name: avatar
+  label: avatar
+- type: text
+  name: greeting
+  label: greeting
+- type: text
+  name: subGreeting
+  label: subGreeting
+- type: text
+  name: statement
+  label: statement
+- type: text
+  name: subStatement
+  label: subStatement
+- type: textarea
+  name: intro
+  label: intro

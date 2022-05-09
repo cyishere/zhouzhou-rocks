@@ -2,6 +2,17 @@
 label: Project Template
 hide_body: true
 fields:
+- name: order
+  type: number
+  label: 显示顺序
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+    required: true
 - name: project_title
   type: text
   config:
@@ -26,5 +37,16 @@ fields:
     schema:
       format: markdown
   label: Caption
+- name: created_at
+  type: datetime
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  label: Created At
+  hidden: true
+  default: now
 pages:
 - src/pages/portfolio/taste-of-home.md

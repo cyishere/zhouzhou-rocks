@@ -1,5 +1,5 @@
 ---
-avatar: "/assets/images/avatar-2.png"
+avatar: "/assets/images/avatar.png"
 greeting: Hello, I'm **Zhou Zhou**.
 subGreeting: Many friends call me JOJO ♥️.
 statement: I am a Screenwriter.

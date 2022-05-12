@@ -1,9 +1,13 @@
+---
+const pathname = new URL(Astro.request.url).pathname;
+const currentPath = pathname.slice(1);
+---
 <nav>
-  <a class="active" href="/" data-text="Home">Home</a>
-  <a href="/portfolio" data-text="Portfolio">Portfolio</a>
-  <a href="/posts" data-text="Articles">Articles</a>
-  <a href="/about" data-text="About Me">About Me</a>
-  <a class="special" href="/contact" data-text="Contact Me">Contact Me</a>
+  <a class={currentPath === "" ? "active" : ""} href="/">Home</a>
+  <a class={currentPath === "portfolio" ? "active" : ""} href="/portfolio">Portfolio</a>
+  <a class={currentPath === "posts" ? "active" : ""} href="/posts">Articles</a>
+  <a class={currentPath === "about" ? "active" : ""} href="/about">About Me</a>
+  <a  class={currentPath === "contact" ? "special active" : "special"} href="/contact">Contact Me</a>
 </nav>
 
 <button class="btn open">
@@ -22,21 +26,8 @@
 
 <script>
   const nav = document.querySelector("nav");
-  const navLinks = document.querySelectorAll("nav a");
   const openBtn = document.querySelector(".open");
   const closeBtn = document.querySelector(".close");
-
-  navLinks.forEach((link) => {
-    link.classList.remove("active");
-    
-    const currentPath = window.location.pathname.slice(1);
-    const hrefArray = link.href.split("/");
-    const thisPath = hrefArray[hrefArray.length - 1];
-    
-    if (currentPath === thisPath) {
-      link.classList.add("active");
-    }
-  });
 
   openBtn.addEventListener("click", function() {
     this.style.display = "none";

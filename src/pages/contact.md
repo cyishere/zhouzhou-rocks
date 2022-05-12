@@ -13,3 +13,9 @@ If you
 * want to counsel on screenwriting，
 
 Please do not hesitate to contact me!
+
+You can find me at:
+
+* izzchow\[at\]gmail.com
+* [Twitter](https://twitter.com/abigjojo "Twitter")
+* [LinkedIn](https://www.linkedin.cn/incareer/in/zhou-zhou-64821291 "LinkedIn")

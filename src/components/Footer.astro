@@ -1,7 +1,12 @@
+---
+const createdAt = new Date("2022").getFullYear();
+const today = new Date();
+const thisYear = today.getFullYear();
+---
 <footer>
   <div class="copyright">
     <img src="/assets/logo_s.png" alt="">
-    <p><span>&copy; 2022 notebookofscreenwriting.io.</span><span>Made by <a href="https://cyishere.dev">CY</a> with 🐈.</span></p>
+    <p><span>&copy; {createdAt === thisYear ? thisYear : `${createdAt} - ${thisYear}`} zhouzhou.rocks.</span><span>Made by <a href="https://cyishere.dev">CY</a> with 🐈.</span></p>
   </div>
   <div class="socials">
     <a href="https://www.linkedin.cn/incareer/in/zhou-zhou-64821291" target="_blank">

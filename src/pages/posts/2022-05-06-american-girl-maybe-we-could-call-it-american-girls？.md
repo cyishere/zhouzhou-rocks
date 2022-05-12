@@ -1,9 +1,18 @@
 ---
 layout: "@layouts/PostLayout.astro"
 title: " American Girl, maybe we should rename it American Girls?"
-excerpt: Some notes of American Girl
-date: 2022-05-06T13:43:14.560Z
-cover: /assets/images/mv5bn2rjm2q3mmytndfimi00nwmxlwe4yzutzgu3ytriztc5zge0xkeyxkfqcgdeqxvyntm3njk5njm-._v1_.jpg
+excerpt: What do you think of the American Girl after reading the logline or synopsis?
+  Is a teenage girl helpless in a struggling family? Or the conflict between the desire
+  of the girls and the reality of SARS? What will happen in this family in this unique
+  environment? What types of characters and plots do you envision? What makes you
+  consider it if you've seen it? Is the story good for you? Is the screenplay appealing
+  to you? I'll write a few words about my review and thoughts on the screenplay below.
+date: 2022-05-06T13:43:14.560+00:00
+cover: "/assets/images/mv5bn2rjm2q3mmytndfimi00nwmxlwe4yzutzgu3ytriztc5zge0xkeyxkfqcgdeqxvyntm3njk5njm-._v1_.jpg"
+coverAlt: Eating ice cream in a lovely restaurant made Lily and her girls happy, and
+  it felt like they were back in America. This is, in my opinion, the most painful
+  scene in the entire film.
+
 ---
 What do you expect? When do you see a movie's title? I've been playing this little game with myself before watching a movie or TV show for a long time. When the poster is on the screen, it can take a long time to press the play button.
 

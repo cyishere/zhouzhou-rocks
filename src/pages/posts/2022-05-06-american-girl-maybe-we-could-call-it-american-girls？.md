@@ -8,7 +8,7 @@ excerpt: What do you think of the American Girl after reading the logline or syn
   consider it if you've seen it? Is the story good for you? Is the screenplay appealing
   to you? I'll write a few words about my review and thoughts on the screenplay below.
 date: 2022-05-06T13:43:14.560+00:00
-cover: "/assets/images/mv5bn2rjm2q3mmytndfimi00nwmxlwe4yzutzgu3ytriztc5zge0xkeyxkfqcgdeqxvyntm3njk5njm-._v1_.jpg"
+cover: "/assets/images/america-girl-still.jpg"
 coverAlt: Eating ice cream in a lovely restaurant made Lily and her girls happy, and
   it felt like they were back in America. This is, in my opinion, the most painful
   scene in the entire film.
@@ -18,7 +18,7 @@ What do you expect? When do you see a movie's title? I've been playing this litt
 
 American Girl is a nice one. A teenage girl is lying down on her mother's lap while the mother cleans the girl's ear. That's a great shot. It catches my attention. This is something that the majority of Chinese youngsters have gone through. Mother (most of the time is the mother) cleans the ears of their children. A warm relationship between a daughter and a mother hits me from the poster. Of course, the girl's adolescent problems ahead of this relationship are tight——DRAMATIC! (However, I am terrified of watching some cliche, process/scenes/dialogues, etc.)
 
-![](/assets/images/p2703935581.jpeg)
+![](/assets/images/america-girl-poster.jpg)
 
 Another bright aspect of this picture is the cultural conflict. Crazy Rich Asians (2018), Dead Pigs (2018), The Farewell(2019), Little Big Women(2020), Tigertail(2020), and other films with similar themes have appeared in recent years. These films, in my opinion, are a good sign that Asians' (or individuals who can speak Chinese) stories are being written. (That means I'll have more opportunities! Yay!) Sorry, returning to American Girl.
 

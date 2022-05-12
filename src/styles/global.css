@@ -42,6 +42,7 @@ html {
   --ff-primary: 'Poppins', sans-serif; /* 400, 600 */
   --ff-heading: 'Playfair Display', serif; /* 400(italic), 600, 700 */
   --ff-secondary: 'Playfair Display SC', serif; /* 400, 700 */
+  --ff-logo: 'Rock Salt', cursive;
 
   /* font weights */
   --fw-regular: 400;

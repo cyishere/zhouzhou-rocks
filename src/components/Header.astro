@@ -1,25 +1,28 @@
 ---
-import Menu from "@components/Menu/index.ts";
+import Navbar from "@components/Navbar.astro";
 ---
 
 <header>
   <a href="/" class="logo">
-    <img src="/assets/logo-sm-accent.png" alt="">
-    <span>Notebook of Screenwriting</span>
+    <img src="/assets/logo-accent.png" alt="">
+    <span>Zhou Zhou</span>
   </a>
-  <Menu client:load />
+  <Navbar />
 </header>
 
 <style>
   header {
-    padding: 32px;
     background-color: var(--clr-white);
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
   }
 
   .logo {
     width: fit-content;
     display: flex;
-    align-items: baseline;
+    align-items: center;
     gap: 10px;
   }
 
@@ -29,8 +32,7 @@ import Menu from "@components/Menu/index.ts";
 
   span {
     font-size: 2rem;
-    font-family: var(--ff-heading);
+    font-family: var(--ff-logo);
     color: var(--clr-secondary);
-    margin-top: 1em;
   }
 </style>

@@ -1,0 +1,70 @@
+<nav>
+  <a class="active" href="/" data-text="Home">Home</a>
+  <a href="/portfolio" data-text="Portfolio">Portfolio</a>
+  <a href="/posts" data-text="Articles">Articles</a>
+  <a href="/about" data-text="About Me">About Me</a>
+  <a class="special" href="/contact" data-text="Contact Me">Contact Me</a>
+</nav>
+
+<script>
+  const navLinks = document.querySelectorAll("nav a");
+
+  navLinks.forEach((link) => {
+    link.classList.remove("active");
+    
+    const currentPath = window.location.pathname.slice(1);
+    const hrefArray = link.href.split("/");
+    const thisPath = hrefArray[hrefArray.length - 1];
+    
+    if (currentPath === thisPath) {
+      link.classList.add("active");
+    }
+  });
+</script>
+
+<style>
+  nav {
+    font-size: 1.33rem;
+    font-family: var(--ff-secondary);
+    display: flex;
+    gap: 2rem;
+  }
+
+  nav a {
+    font-weight: var(--fw-regular);
+    position: relative;
+  }
+
+  nav a.special {
+    color: var(--clr-accent);
+  }
+
+  nav a.active {
+    color: var(--clr-primary);
+  }
+
+  nav a::after {
+    content: "";
+    background-color: currentColor;
+    height: 1px;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: height 300ms, opacity 300ms, transform 300ms;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+  }
+
+  nav a:hover::after, nav a.active::after {
+    height: 3px;
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+  nav a.active:hover::after {
+    height: 1px;
+    opacity: 0;
+    transform: translateY(10px);
+  }
+</style>

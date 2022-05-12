@@ -1,11 +1,13 @@
 ---
 import Layout from "@layouts/PageLayout.astro";
 
-const title = "404";
+const content = {
+  title: "404"
+};
 ---
-<Layout title={title}>
+<Layout content={content}>
   <main>
-    <h2>{title}</h2>
+    <h2>{content.title}</h2>
     <article class="flow">
       <p>Page not found.</p>
       <p><a href="/">Back to home page</a>.</p>

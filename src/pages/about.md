@@ -1,6 +1,6 @@
 ---
 layout: "@layouts/PageLayout.astro"
-title: About Me
+title: About
 
 ---
 ![](/assets/images/个人图片-圆形.png)

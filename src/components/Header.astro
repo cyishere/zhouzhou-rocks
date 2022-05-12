@@ -1,6 +1,7 @@
 ---
 import Navbar from "@components/Navbar.astro";
 ---
+<a href="#skipToHere" class="skip-link">Skip to content</a>
 
 <header>
   <a href="/" class="logo">
@@ -10,7 +11,25 @@ import Navbar from "@components/Navbar.astro";
   <Navbar />
 </header>
 
+<div id="skipToHere"></div>
+
 <style>
+  .skip-link {
+    background-color: var(--clr-white);
+    box-shadow: rgb(0 0 0 / 2%) 0px -5.9px 2.7px, rgb(0 0 0 / 2%) 0px -1.2px 6.9px, rgb(0 0 0 / 3%) 0px 8px 14.2px, rgb(0 0 0 / 4%) 0px 21.9px 29.2px, rgb(0 0 0 / 7%) 0px 49px 80px;
+    padding: 10px 20px;
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    z-index: 9999;
+  }
+
+  .skip-link:focus {
+    clip: auto;
+    outline: 5px auto var(--clr-primary);
+  }
+
   header {
     --spacing: 32px;
     background-color: var(--clr-white);
@@ -35,6 +54,11 @@ import Navbar from "@components/Navbar.astro";
     font-size: 2rem;
     font-family: var(--ff-logo);
     color: var(--clr-secondary);
+  }
+
+  #skipToHere {
+    contain: none;
+    scroll-margin-top: 32px;
   }
 
   @media (max-width: 1200px) {

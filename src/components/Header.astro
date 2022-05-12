@@ -12,8 +12,9 @@ import Navbar from "@components/Navbar.astro";
 
 <style>
   header {
+    --spacing: 32px;
     background-color: var(--clr-white);
-    padding: 32px;
+    padding: var(--spacing);
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -34,5 +35,23 @@ import Navbar from "@components/Navbar.astro";
     font-size: 2rem;
     font-family: var(--ff-logo);
     color: var(--clr-secondary);
+  }
+
+  @media (max-width: 1200px) {
+    .logo img {
+      width: 60px;
+    }
+
+    .logo span {
+      font-size: 1.25rem;
+    }
+  }
+
+  @media (max-width: 960px) {
+    header {
+      flex-direction: column;
+      align-items: stretch;
+      gap: var(--spacing);
+    }
   }
 </style>

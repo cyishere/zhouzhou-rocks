@@ -6,8 +6,25 @@
   <a class="special" href="/contact" data-text="Contact Me">Contact Me</a>
 </nav>
 
+<button class="btn open">
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+  </svg>
+  <span class="visually-hidden">Open Menu</span>
+</button>
+
+<button class="btn close" style="display: none;">
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+  </svg>
+  <span class="visually-hidden">Close</span>
+</button>
+
 <script>
+  const nav = document.querySelector("nav");
   const navLinks = document.querySelectorAll("nav a");
+  const openBtn = document.querySelector(".open");
+  const closeBtn = document.querySelector(".close");
 
   navLinks.forEach((link) => {
     link.classList.remove("active");
@@ -19,6 +36,18 @@
     if (currentPath === thisPath) {
       link.classList.add("active");
     }
+  });
+
+  openBtn.addEventListener("click", function() {
+    this.style.display = "none";
+    nav.classList.add("show");
+    closeBtn.style.display = "block";
+  });
+
+  closeBtn.addEventListener("click", function() {
+    this.style.display = "none";
+    nav.classList.remove("show");
+    openBtn.style.display = "block";
   });
 </script>
 
@@ -66,5 +95,109 @@
     height: 1px;
     opacity: 0;
     transform: translateY(10px);
+  }
+
+  .btn {
+    text-align: center;
+    font: inherit;
+    color: var(--clr-primary);
+    background: transparent;
+    border: none;
+    border-radius: 4px;
+    width: 48px;
+    height: 48px;
+    margin: 0;
+    padding: 0;
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    z-index: 1000;
+  }
+
+  .btn:focus {
+    outline-offset: 2px;
+  }
+
+  .btn:active {
+    background-color: var(--clr-primary);
+    color: var(--clr-white);
+  }
+
+  .btn:focus:not(:focus-visible) {
+    outline: none;
+  }
+
+  .open:hover {
+    animation: popUp 300ms ease;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .close:hover {
+      animation: spinning 300ms ease;
+    }
+  }
+
+  .visually-hidden {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+  }
+
+  @keyframes spinning {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes popUp {
+    0% {
+      transform: scale(1);
+    }
+    90% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  @media (max-width: 1200px) {
+    nav {
+      font-size: 1rem;
+      font-weight: var(--fw-bold);
+    }
+  }
+
+  @media (max-width: 960px) {
+    nav {
+      font-size: 2rem;
+      flex-direction: column;
+      align-items: flex-end;
+      transform: translateX(150%);
+      height: 0;
+      opacity: 0;
+      transition: transform 500ms ease, height 300ms, opacity 300ms;
+      overflow: hidden;
+    }
+
+    nav.show {
+      transform: translateX(0);
+      height: auto;
+      opacity: 1;
+    }
+
+    .btn {
+      display: block;
+    }
   }
 </style>

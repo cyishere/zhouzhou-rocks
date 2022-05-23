@@ -1,20 +1,23 @@
 ---
-import Layout from '@layouts/MainLayout.astro';
-import PostListSection from "@components/PostListSection.astro";
-import ProjectList from "@components/ProjectList.astro";
-import type { ProjectMeta } from '@utils/types';
+	import type { ProjectMeta } from '@utils/types';
+	import Layout from '@layouts/MainLayout.astro';
+	import PostListSection from "@components/PostListSection.astro";
+	import ProjectList from "@components/ProjectList.astro";
+	import pageTitle from '@utils/pageTitle';
 
-const allProjects = await Astro.glob<ProjectMeta>('./*.md');
-let projects = [...allProjects];
-projects = projects.sort((a, b) => a.frontmatter.order - b.frontmatter.order);
+	const allProjects = await Astro.glob<ProjectMeta>('./*.md');
+	let projects = [...allProjects];
+	projects = projects.sort((a, b) => a.frontmatter.order - b.frontmatter.order);
+
+	const title = "Portfolio";
 ---
 
-<Layout title="Portfolio | Welcome to Notebook.">
+<Layout title={pageTitle(title)}>
 	<main>
-    <PostListSection title="Portfolio">
-      <ProjectList projects={projects} more={false} />
-    </PostListSection>
-  </main>
+		<PostListSection title={title}>
+			<ProjectList projects={projects} more={false} />
+		</PostListSection>
+	</main>
 </Layout>
 
 <style>

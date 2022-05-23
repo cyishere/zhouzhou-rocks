@@ -1,17 +1,18 @@
 ---
-import Layout from '@layouts/MainLayout.astro';
+	import Layout from '@layouts/MainLayout.astro';
+	import pageTitle from '@utils/pageTitle';
 
-const { content } = Astro.props;
-const { title } = content;
+	const { content } = Astro.props;
+	const { title } = content;
 ---
 
-<Layout title={title}>
+<Layout title={pageTitle(title)}>
 	<main>
-    <h2>{title}</h2>
-    <article class="flow">
-      <slot />
-    </article>
-  </main>
+		<h2>{title}</h2>
+		<article class="flow">
+			<slot />
+		</article>
+	</main>
 </Layout>
 
 <style>
@@ -26,6 +27,6 @@ const { title } = content;
 		font-size: 2rem;
 		font-weight: var(--fw-bold);
 		text-align: center;
-    margin-bottom: 64px;
+		margin-bottom: 64px;
 	}
 </style>

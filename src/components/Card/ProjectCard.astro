@@ -1,9 +1,10 @@
 ---
-import { Markdown } from "astro/components";
-import { ProjectMeta } from "@utils/types";
+  import { Markdown } from "astro/components";
+  import { ProjectMeta } from "@utils/types";
+  import { ButtonLink } from "@components/Button";
 
-const { project_title, caption, cover_image, cover_alt } = Astro.props as ProjectMeta;
-const alt = cover_alt ? cover_alt : "";
+  const { project_title, caption, cover_image, cover_alt, link } = Astro.props as ProjectMeta;
+  const alt = cover_alt ? cover_alt : "";
 ---
 
 <article class="card">
@@ -12,13 +13,23 @@ const alt = cover_alt ? cover_alt : "";
     <div class="excerpt flow">
       <Markdown>{caption}</Markdown>
     </div>
+
+    {link ? (
+    <div class="button-wrapper">
+      <ButtonLink icon={true} link={link} client:load>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+          stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="feather feather-play-circle"
+          viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="10"></circle>
+          <path d="M10 8L16 12 10 16 10 8z"></path>
+        </svg>
+        <span>Watch</span>
+      </ButtonLink>
+    </div>
+    ) : null}
   </div>
   {cover_image ? (
-    <img
-      src={cover_image}
-      alt={alt}
-      class="img"
-    />
+  <img src={cover_image} alt={alt} class="img" />
   ) : null}
 </article>
 
@@ -47,15 +58,25 @@ const alt = cover_alt ? cover_alt : "";
     margin-top: 20px;
   }
 
+  .button-wrapper {
+    margin-top: 20px;
+  }
+
+  .button-wrapper a {
+    display: block;
+  }
+
   .img {
     display: block;
-    max-width: 500px;
-    width: 100%;
+    max-width: 400px;
+    max-height: 400px;
+    margin-top: 2em;
   }
 
   @media (max-width: 1024px) {
     .img {
-      width: 200px;
+      max-width: 300px;
+      max-height: 300px;
     }
   }
 
@@ -67,9 +88,15 @@ const alt = cover_alt ? cover_alt : "";
     }
 
     .img {
-      width: 100%;
-      max-width: 100%;
+      width: auto;
+      max-width: none;
+      max-height: 400px;
       order: -1;
+      align-self: center;
+    }
+
+    .button-wrapper a {
+      width: 100%;
     }
   }
 </style>

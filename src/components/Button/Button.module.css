@@ -5,8 +5,32 @@
   font-family: var(--ff-secondary);
   border: 1px solid;
   padding: 10px 20px;
+  display: inline-block;
+  transition: background 300ms, border 300ms;
 }
 
 .btn:hover {
   background-color: hsl(0deg 0% 100% / 0.6);
+  border-color: var(--clr-accent);
+}
+
+.btn:focus {
+  /* outline: 2px dashed; */
+  outline-offset: 0.25rem;
+}
+
+a.btn {
+  background-image: none;
+}
+
+.iconBtn {
+  font-family: var(--ff-primary);
+  font-size: 1.11rem;
+  font-weight: var(--fw-semiBold);
+  border-width: 2px;
+  border-color: var(--clr-secondary);
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }

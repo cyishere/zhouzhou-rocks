@@ -15,4 +15,5 @@ export interface ProjectMeta {
   caption: string;
   order?: number;
   created_at?: string;
+  link?: string;
 }

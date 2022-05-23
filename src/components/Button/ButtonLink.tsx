@@ -12,13 +12,18 @@ const ButtonLink: FunctionComponent<ButtonLinkProps> = ({
   link,
   children,
   icon = false,
-}) => (
-  <a
-    className={icon ? `${styles.btn} ${styles.iconBtn}` : styles.btn}
-    href={link}
-  >
-    {children}
-  </a>
-);
+}) => {
+  const target = link.startsWith("http") ? "_blank" : "_self";
+
+  return (
+    <a
+      className={icon ? `${styles.btn} ${styles.iconBtn}` : styles.btn}
+      href={link}
+      target={target}
+    >
+      {children}
+    </a>
+  );
+};
 
 export default ButtonLink;

@@ -1,19 +1,19 @@
 ---
-// import { posts } from "@utils/data";
-import formatDate from "@utils/formatDate";
-import Layout from '@layouts/MainLayout.astro';
-// import PostListSection from "@components/PostListSection.astro";
-// import PostList from "@components/PostList.astro";
+  // import { posts } from "@utils/data";
+  import formatDate from "@utils/formatDate";
+  import Layout from '@layouts/MainLayout.astro';
+  // import PostListSection from "@components/PostListSection.astro";
+  // import PostList from "@components/PostList.astro";
 
-const { content } = Astro.props;
-const { title, excerpt, date, cover, coverAlt } = content;
+  const { content } = Astro.props;
+  const { title, excerpt, date, cover, coverAlt } = content;
 
 ---
 
 <Layout title={title}>
-	<main>
+  <main>
     {cover ? (
-      <img src={cover} alt={coverAlt ? coverAlt : ""} class="cover">
+    <img src={cover} alt={coverAlt ? coverAlt : "" } class="cover">
     ) : null}
 
     <section>
@@ -23,14 +23,13 @@ const { title, excerpt, date, cover, coverAlt } = content;
         <p class="excerpt">{excerpt}</p>
       </header>
 
-
       <article class="flow">
         <slot />
 
         <p>THE END.</p>
       </article>
     </section>
-	</main>
+  </main>
 </Layout>
 
 <style>
@@ -40,24 +39,25 @@ const { title, excerpt, date, cover, coverAlt } = content;
     aspect-ratio: 16 / 9;
     object-fit: cover;
   }
-    
+
   section {
     --paddingX: 32px;
-    padding: 0 var(--paddingX) 180px;
+    padding: 0 var(--paddingX);
   }
 
-  header, article {
+  header,
+  article {
     max-width: 800px;
+    padding: 72px 0;
     margin-left: auto;
     margin-right: auto;
   }
 
   header {
     text-align: center;
-    padding: 72px 0;
   }
 
-  header > * + * {
+  header>*+* {
     margin-top: 10px;
   }
 
@@ -68,6 +68,7 @@ const { title, excerpt, date, cover, coverAlt } = content;
   .excerpt {
     font-size: 1.2rem;
     font-weight: var(--fw-regular);
+    text-align: left;
     color: var(--clr-secondary);
   }
 
@@ -92,5 +93,18 @@ const { title, excerpt, date, cover, coverAlt } = content;
 
   .more {
     background-color: var(--clr-white);
+  }
+
+  article {
+    position: relative;
+  }
+
+  article::before {
+    content: "";
+    background: repeating-linear-gradient(-45deg, hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, 0) 6px, hsl(0, 0%, 70%) 0, hsl(0, 0%, 70%) 8px);
+    width: 100%;
+    height: 0.4em;
+    position: absolute;
+    inset: 0;
   }
 </style>

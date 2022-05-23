@@ -1,9 +1,8 @@
 ---
   import { Markdown } from "astro/components";
   import { ProjectMeta } from "@utils/types";
-  import { ButtonLink } from "@components/Button";
 
-  const { project_title, caption, cover_image, cover_alt, link } = Astro.props as ProjectMeta;
+  const { project_title, caption, cover_image, cover_alt } = Astro.props as ProjectMeta;
   const alt = cover_alt ? cover_alt : "";
 ---
 
@@ -13,21 +12,8 @@
     <div class="excerpt flow">
       <Markdown>{caption}</Markdown>
     </div>
-
-    {link ? (
-    <div class="button-wrapper">
-      <ButtonLink icon={true} link={link} client:load>
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
-          stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="feather feather-play-circle"
-          viewBox="0 0 24 24">
-          <circle cx="12" cy="12" r="10"></circle>
-          <path d="M10 8L16 12 10 16 10 8z"></path>
-        </svg>
-        <span>Watch</span>
-      </ButtonLink>
-    </div>
-    ) : null}
   </div>
+
   {cover_image ? (
   <img src={cover_image} alt={alt} class="img" />
   ) : null}

@@ -37,11 +37,6 @@ fields:
       schema:
         format: markdown
     label: Caption
-  - name: link
-    type: text
-    config:
-      required: false
-    label: Project Link (where to watch it)
   - name: created_at
     type: datetime
     description: ""

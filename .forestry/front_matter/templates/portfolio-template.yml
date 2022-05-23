@@ -2,52 +2,58 @@
 label: Project Template
 hide_body: true
 fields:
-  - name: order
-    type: number
-    label: 显示顺序
-    description: ""
-    default: 0
+- name: order
+  type: number
+  label: 显示顺序
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
     required: true
-    config:
-      min:
-      max:
-      step:
-      required: true
-  - name: project_title
-    type: text
-    config:
-      required: true
-    label: Project Title
-  - name: cover_image
-    type: file
-    config:
-      maxSize: 64
-    label: Cover Image
-  - name: cover_alt
-    type: text
-    config:
-      required: false
-    label: Cover Image Description
-  - name: caption
-    type: textarea
-    default: ""
-    config:
-      required: true
-      wysiwyg: true
-      schema:
-        format: markdown
-    label: Caption
-  - name: created_at
-    type: datetime
-    description: ""
-    config:
-      required: false
-      date_format:
-      time_format:
-      display_utc: false
-    label: Created At
-    hidden: true
-    default: now
+- name: project_title
+  type: text
+  config:
+    required: true
+  label: Project Title
+- name: link
+  type: text
+  config:
+    required: false
+  label: Link
+  description: Where to watch this project
+- name: cover_image
+  type: file
+  config:
+    maxSize: 64
+  label: Cover Image
+- name: cover_alt
+  type: text
+  config:
+    required: false
+  label: Cover Image Description
+- name: caption
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Caption
+- name: created_at
+  type: datetime
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  label: Created At
+  hidden: true
+  default: now
 pages:
-  - src/pages/portfolio/say-my-name.md
-  - src/pages/portfolio/taste-of-home.md
+- src/pages/portfolio/say-my-name.md
+- src/pages/portfolio/taste-of-home.md

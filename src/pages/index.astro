@@ -1,24 +1,23 @@
 ---
-	// import { posts } from "@utils/data";
-	import Layout from '@layouts/MainLayout.astro';
-	import PostListSection from "@components/PostListSection.astro";
-	import PostList from "@components/PostList.astro";
-	import Profile from '@components/Profile.astro';
+// import { posts } from "@utils/data";
+import Layout from '@layouts/MainLayout.astro';
+import PostListSection from "@components/PostListSection.astro";
+import PostList from "@components/PostList.astro";
+import Profile from '@components/Profile.astro';
 
-	const profiles = await Astro.glob("../sections/profile.md");
-	const profile = profiles[0];
+const profiles = await Astro.glob("../sections/profile.md");
+const profile = profiles[0];
 
-	const max = 6;
+const max = 6;
 
-	const allPosts = await Astro.glob('./posts/*.md');
-	let posts = [...allPosts];
-	posts = posts.sort((a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf()).slice(0, max);
+const allPosts = await Astro.glob('./posts/*.md');
+let posts = [...allPosts];
+posts = posts.sort((a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf()).slice(0, max);
 
-	const more = allPosts.length <= max ? false : true;
+const more = allPosts.length <= max ? false : true;
 ---
 
-
-<Layout title="ZhouZhou, called by JoJo, a screenwriter.">
+<Layout title="Welcome to Notebook.">
 	<main>
 		{profile ? (
 			<Profile profile={profile} />

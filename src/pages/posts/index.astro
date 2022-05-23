@@ -1,19 +1,18 @@
 ---
-  import Layout from '@layouts/MainLayout.astro';
-  import PostListSection from "@components/PostListSection.astro";
-  import PostList from "@components/PostList.astro";
-  import pageTitle from '@utils/pageTitle';
+import Layout from '@layouts/MainLayout.astro';
+import PostListSection from "@components/PostListSection.astro";
+import PostList from "@components/PostList.astro";
 
-  let posts = await Astro.glob('./*.md');
-  posts = posts.sort((a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf());
+let posts = await Astro.glob('./*.md');
+posts = posts.sort((a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf());
 
-  const title = "Blog"
+const title = "Articles"
 ---
 
-<Layout title={pageTitle(title)}>
-  <main>
+<Layout title={title}>
+	<main>
     <PostListSection title={title}>
       <PostList posts={posts} more={false} />
     </PostListSection>
-  </main>
+	</main>
 </Layout>

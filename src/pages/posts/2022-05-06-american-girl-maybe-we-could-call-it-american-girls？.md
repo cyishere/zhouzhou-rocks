@@ -1,12 +1,10 @@
 ---
 layout: "@layouts/PostLayout.astro"
 title: " American Girl, maybe we should rename it American Girls?"
-excerpt: What do you think of the American Girl after reading the logline or synopsis?
-  Is a teenage girl helpless in a struggling family? Or the conflict between the desire
-  of the girls and the reality of SARS? What will happen in this family in this unique
-  environment? What types of characters and plots do you envision? What makes you
-  consider it if you've seen it? Is the story good for you? Is the screenplay appealing
-  to you? I'll write a few words about my review and thoughts on the screenplay below.
+excerpt: What do you think of the American Girl after reading the logline or synopsis?  Is
+  the screenplay appealing to you? Can you get the character's struggle in a specific
+  environment when you watched it?  I'll put  my review and thoughts on the screenplay
+  below.
 date: 2022-05-06T13:43:14.560+00:00
 cover: "/assets/images/america-girl-still.jpg"
 coverAlt: Eating ice cream in a lovely restaurant made Lily and her girls happy, and

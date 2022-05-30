@@ -27,3 +27,5 @@ fields:
   config:
     required: false
   label: Cover Image Description
+pages:
+- src/pages/posts/why-is-everything-everywhere-getting-such-polarized-responses-in-china.md

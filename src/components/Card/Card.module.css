@@ -60,6 +60,7 @@
   display: block;
   max-width: 500px;
   width: 100%;
+  margin-top: 2em;
 }
 
 @media (max-width: 1024px) {

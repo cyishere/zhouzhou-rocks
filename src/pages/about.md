@@ -3,7 +3,7 @@ layout: "@layouts/PageLayout.astro"
 title: About
 
 ---
-![](/assets/images/个人图片-圆形.png)
+![a Chinese Scrennwriter. Writes in English and Chinese.](/assets/images/个人图片-圆形.png "ZhouZhou")
 
 Hello! It's a pleasure to meet you here! I am Zhou Zhou, you can call me Jojo.
 

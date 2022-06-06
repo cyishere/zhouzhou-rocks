@@ -28,4 +28,5 @@ fields:
     required: false
   label: Cover Image Description
 pages:
+- src/pages/posts/doctor-who-legend-of-the-sea-devils-borrowed-madame-ching.md
 - src/pages/posts/why-is-everything-everywhere-getting-such-polarized-responses-in-china.md

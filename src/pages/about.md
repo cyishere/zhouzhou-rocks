@@ -22,4 +22,4 @@ Here are some of the things I've done：
 * Co-wrote"Say my name", a short film directed by Ng Chun-Yu and released in 2021.
 * Feature Film Screenplay "Lost in years" was short-listed for The Elite project+screenwriting workshop by Wanda Pictures.
 
-_The longlines/synopsises are shown on the Portfolio page._ 😁😄
+_The longlines/synopsises are shown on the Portfolio page._ ❤️

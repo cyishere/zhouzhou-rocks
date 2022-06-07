@@ -21,5 +21,5 @@ Despite the fact that she is only a borrowed and minor character, Madame Ching i
 Overall, I learned some adaptation skills from this episode, which were:
 
 * Begin with the major character (not necessarily the protagonist); the more familiar, the better; she/he has more freedom to write, and it is better. This character will confirm where and when the story will take place.
-* Find a way to relate this important character to our protagonist; in this case, the writers let Madame Ching lose her crew, and she wants to find the treasure to redeem them. Her desire or goal overlaps with Dr.who's. (Ignore the real history).
+* Find a way to relate this important character to our protagonist; in this case, the writers let Madame Ching lose her crew, and she wants to find the treasure to redeem them. Her desire or goal overlaps with the doctor who's. (Ignore the real history).
 * Taking characters from different areas is a fantastic way to combine a fresh plot. They can appear as conflicts if they are on the same topic. They, like Sea Devils and Ji-Hun, are not real people, but their combination is a suitable fit to help advance the plot.

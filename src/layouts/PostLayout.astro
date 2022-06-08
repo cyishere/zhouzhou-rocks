@@ -1,9 +1,9 @@
 ---
-  import formatDate from "@utils/formatDate";
-  import Layout from '@layouts/MainLayout.astro';
+import formatDate from "@utils/formatDate";
+import Layout from '@layouts/MainLayout.astro';
 
-  const { content } = Astro.props;
-  const { title, excerpt, date, cover, coverAlt } = content;
+const { content } = Astro.props;
+const { title, excerpt, date, cover, coverAlt } = content;
 
 ---
 
@@ -68,6 +68,16 @@
     font-weight: var(--fw-regular);
     text-align: left;
     color: var(--clr-secondary);
+  }
+
+  @media (max-width: 1024px) {
+    h1 {
+      font-size: 1.75rem;
+    }
+
+    .excerpt {
+      font-size: 1.125rem;
+    }
   }
 
   header .excerpt {

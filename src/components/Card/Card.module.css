@@ -36,6 +36,16 @@
   margin-top: 12px;
 }
 
+@media (max-width: 1024px) {
+  .title {
+    font-size: 1.75rem;
+  }
+
+  .excerpt {
+    font-size: 1.125rem;
+  }
+}
+
 .excerpt {
   font-size: 1.2rem;
   font-weight: var(--fw-regular);

@@ -22,22 +22,23 @@ if (posts) {
 }
 
 ---
+
 <div class="wrapper">
   {postsMeta.length > 0 ? (
-    postsMeta.map((post, i) => (
-      <div class="spacing">
-        <Card key={i} {...post} client:load />
-      </div>
-    ))
+  postsMeta.map((post, i) => (
+  <div class="spacing">
+    <Card key={i} {...post} client:load />
+  </div>
+  ))
   ) : (
-    <p class="text">No post yet.</p>
+  <p class="text">No post yet.</p>
   )}
-  
+
 
   {more ? (
-    <div class="more">
-      <ButtonLink link="/posts" client:load>More Articles</ButtonLink>
-    </div>
+  <div class="more">
+    <ButtonLink link="/posts" client:load>More Articles</ButtonLink>
+  </div>
   ) : null}
 </div>
 
@@ -48,6 +49,14 @@ if (posts) {
 
   .spacing {
     margin-top: 64px;
+  }
+
+  @media (max-width: 768px) {
+
+    .wrapper,
+    .spacing {
+      margin-top: 0;
+    }
   }
 
   .text {

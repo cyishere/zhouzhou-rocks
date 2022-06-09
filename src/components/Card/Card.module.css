@@ -101,6 +101,7 @@
     max-width: 100%;
     order: -1;
     margin-top: 0;
+    margin-left: 0;
     /* Fallback for the card's gap */
     margin-bottom: 36px;
   }

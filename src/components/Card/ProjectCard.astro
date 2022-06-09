@@ -76,7 +76,7 @@ const alt = cover_alt ? cover_alt : "";
     margin-left: 72px;
   }
 
-  @supports (display: flex; gap: 72px) {
+  @supports (display: flex) {
     .card {
       gap: 72px;
     }
@@ -107,6 +107,7 @@ const alt = cover_alt ? cover_alt : "";
       order: -1;
       align-self: center;
       margin-top: 0;
+      margin-left: 0;
       /* Fallback for the card's gap */
       margin-bottom: 36px;
     }

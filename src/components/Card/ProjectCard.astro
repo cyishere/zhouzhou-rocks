@@ -1,10 +1,10 @@
 ---
-  import { Markdown } from "astro/components";
-  import { ProjectMeta } from "@utils/types";
-  import { ButtonLink } from "@components/Button";
+import { Markdown } from "astro/components";
+import { ProjectMeta } from "@utils/types";
+import { ButtonLink } from "@components/Button";
 
-  const { project_title, caption, cover_image, cover_alt, link } = Astro.props as ProjectMeta;
-  const alt = cover_alt ? cover_alt : "";
+const { project_title, caption, cover_image, cover_alt, link } = Astro.props as ProjectMeta;
+const alt = cover_alt ? cover_alt : "";
 
 ---
 
@@ -40,7 +40,6 @@
     padding: 32px;
     display: flex;
     align-items: flex-start;
-    gap: 72px;
   }
 
   .body {
@@ -73,6 +72,18 @@
     max-width: 400px;
     max-height: 400px;
     margin-top: 2em;
+    /* Fallback for the card's gap */
+    margin-left: 72px;
+  }
+
+  @supports (display: flex) {
+    .card {
+      gap: 72px;
+    }
+
+    .img {
+      margin-left: 0;
+    }
   }
 
   @media (max-width: 1024px) {
@@ -95,10 +106,23 @@
       max-height: 400px;
       order: -1;
       align-self: center;
+      margin-top: 0;
+      /* Fallback for the card's gap */
+      margin-bottom: 36px;
     }
 
     .button-wrapper a {
       width: 100%;
+    }
+
+    @supports (display: flex) {
+      .card {
+        gap: 36px;
+      }
+
+      .img {
+        margin-bottom: 0;
+      }
     }
   }
 </style>

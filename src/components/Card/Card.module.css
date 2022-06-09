@@ -17,7 +17,6 @@
   padding: 32px;
   display: flex;
   align-items: flex-start;
-  gap: 72px;
 }
 
 .body {
@@ -71,6 +70,18 @@
   max-width: 500px;
   width: 100%;
   margin-top: 2em;
+  /* Fallback for the card's gap */
+  margin-left: 72px;
+}
+
+@supports (display: flex) {
+  .card {
+    gap: 72px;
+  }
+
+  .img {
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -83,12 +94,24 @@
   .card {
     flex-direction: column;
     justify-content: flex-end;
-    gap: 36px;
   }
 
   .img {
     width: 100%;
     max-width: 100%;
     order: -1;
+    margin-top: 0;
+    /* Fallback for the card's gap */
+    margin-bottom: 36px;
+  }
+
+  @supports (display: flex) {
+    .card {
+      gap: 36px;
+    }
+
+    .img {
+      margin-bottom: 0;
+    }
   }
 }

@@ -74,7 +74,7 @@
   margin-left: 72px;
 }
 
-@supports (display: flex) {
+@supports (display: flex; gap: 72px) {
   .card {
     gap: 72px;
   }
@@ -105,7 +105,7 @@
     margin-bottom: 36px;
   }
 
-  @supports (display: flex) {
+  @supports (display: flex; gap: 36px) {
     .card {
       gap: 36px;
     }

@@ -76,7 +76,7 @@ const alt = cover_alt ? cover_alt : "";
     margin-left: 72px;
   }
 
-  @supports (display: flex) {
+  @supports (display: flex; gap: 72px) {
     .card {
       gap: 72px;
     }
@@ -115,7 +115,7 @@ const alt = cover_alt ? cover_alt : "";
       width: 100%;
     }
 
-    @supports (display: flex) {
+    @supports (display: flex; gap: 36px) {
       .card {
         gap: 36px;
       }

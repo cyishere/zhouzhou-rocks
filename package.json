@@ -1,7 +1,9 @@
 {
-  "name": "notebook-of-screenwriting",
-  "version": "0.0.1",
+  "name": "zhouzhou-rocks",
+  "description": "A screenwriter's personal website.",
+  "version": "1.0.0",
   "private": true,
+  "author": "Chen Yang <cyishere@proton.me>",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",

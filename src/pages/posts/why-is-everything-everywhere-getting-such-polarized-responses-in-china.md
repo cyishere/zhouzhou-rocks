@@ -1,8 +1,8 @@
 ---
 layout: "@layouts/PostLayout.astro"
 date: 2022-05-30T23:33:03.000+08:00
-title: Why is Everything Everywhere  All at Once getting such polarized responses
-  in China?
+title: Why Is Everything Everywhere  All At Once Getting Such Polarized Responses
+  In China?
 excerpt: 'After watching Everything Everywhere all at once, audiences in China are
   in two states: excitement and disappointment. Why? I did several interviews and
   got some screenplay tips.'

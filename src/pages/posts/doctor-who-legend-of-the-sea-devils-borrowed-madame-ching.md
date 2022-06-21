@@ -1,7 +1,7 @@
 ---
 layout: "@layouts/PostLayout.astro"
 date: 2022-06-06T21:51:11.000+08:00
-title: 'Doctor Who: Legend of the Sea Devils borrowed Madame Ching'
+title: 'Doctor Who: Legend Of The Sea Devils Borrowed Madame Ching'
 excerpt: 'Asian female leaders’ story is one of my favourite areas to create. I am
   writing a story about Madame Ching.  Well, technically, I''m adapting her story.
   When I watched Doctor Who:  Legend of the Sea Devils, I want to leave some notes

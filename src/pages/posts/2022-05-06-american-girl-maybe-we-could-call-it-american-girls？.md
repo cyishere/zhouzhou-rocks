@@ -1,6 +1,6 @@
 ---
 layout: "@layouts/PostLayout.astro"
-title: " American Girl, maybe we should rename it American Girls?"
+title: " American Girl, Maybe We Should Rename It American Girls?"
 excerpt: What do you think of the American Girl after reading the logline or synopsis?  Is
   the screenplay appealing to you? Can you get the character's struggle in a specific
   environment when you watched it?  I'll put  my review and thoughts on the screenplay
@@ -14,7 +14,7 @@ coverAlt: Eating ice cream in a lovely restaurant made Lily and her girls happy,
 ---
 What do you expect? When do you see a movie's title? I've been playing this little game with myself before watching a movie or TV show for a long time. When the poster is on the screen, it can take a long time to press the play button.
 
-American Girl is a nice one. A teenage girl is lying down on her mother's lap while the mother cleans the girl's ear. That's a great shot. It catches my attention. This is something that the majority of Chinese youngsters have gone through. Mother (most of the time is the mother) cleans the ears of their children. A warm relationship between a daughter and a mother hits me from the poster. Of course, the girl's adolescent problems ahead of this relationship are tight——DRAMATIC! (However, I am terrified of watching some cliche, process/scenes/dialogues, etc.)
+_American Girl_ is a nice one. A teenage girl is lying down on her mother's lap while the mother cleans the girl's ear. That's a great shot. It catches my attention. This is something that the majority of Chinese youngsters have gone through. Mother (most of the time is the mother) cleans the ears of their children. A warm relationship between a daughter and a mother hits me from the poster. Of course, the girl's adolescent problems ahead of this relationship are tight——DRAMATIC! (However, I am terrified of watching some cliche, process/scenes/dialogues, etc.)
 
 ![](/assets/images/america-girl-poster.jpg)
 

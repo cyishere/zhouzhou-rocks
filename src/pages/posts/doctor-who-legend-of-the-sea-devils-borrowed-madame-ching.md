@@ -1,6 +1,6 @@
 ---
 layout: "@layouts/PostLayout.astro"
-date: 2022-06-06T21:51:11+08:00
+date: 2022-06-06T21:51:11.000+08:00
 title: 'Doctor Who: Legend of the Sea Devils borrowed Madame Ching'
 excerpt: 'Asian female leaders’ story is one of my favourite areas to create. I am
   writing a story about Madame Ching.  Well, technically, I''m adapting her story.
@@ -14,7 +14,7 @@ For the past year, I've been researching Madame Ching Shih's life. Many of her s
 
 As a result, when I come across some work on her, I pay more attention.
 
-Madame Ching appears in Doctor Who: Legend of the Sea Devils, which is an intriguing episode. This episode revolves around four characters: Doctor Who, Madame Ching, the Sea Devils, and Ji-Hun.
+Madame Ching appears in _Doctor Who: Legend of the Sea Devils_, which is an intriguing episode. This episode revolves around four characters: Doctor Who, Madame Ching, the Sea Devils, and Ji-Hun.
 
 Despite the fact that she is only a borrowed and an important character, Madame Ching is without a doubt the most important. She establishes the setting and timeline for the story. The story is based on a few historical events, not on her. Here She is a borrowed element or material by writers.
 

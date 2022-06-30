@@ -11,7 +11,7 @@ I am a Chinese screenwriter.
 
 After graduating from Beijing Normal University, I got my first job as a screenwriter. I joined a comedy crew in Hunan. Unfortunately, I failed because I couldn't bear the weather. I finished one season's writing, and then I went back to Beijing to get things going.
 
-I resumed writing screenplays and making short films after producing some commercials and promos. Yang Qin's Weekend(a short film)sparked my passion for writing. My friends and I had written some screenplays from 2014 until 2018, and we were stuck. We started looking for a way out. I graduated from Beijing Film Academy after majoring in screenwriting for three years, and now I just start my screenwriting career.
+I resumed writing screenplays and making short films after producing some commercials and promos. Yang Qin's Weekend(a short film)sparked my passion for writing. My friends and I had written some screenplays from 2014 until 2018, and we were stuck. We started looking for a way out. I graduated from Beijing Film Academy after majoring in screenwriting for three years, and now I have just started my screenwriting career.
 
 I've been testing the waters in several genres while learning to write screenplays. I'm realizing that I'm extremely into the subject of Culture Differences and creating Asian (especially female) stories. Not only does some cultural conflict always appear in my daily life, but as more of my friends moved/immigrated to another nation to live, I witnessed their delight and sufferings, which all impacted and hit me profoundly.
 

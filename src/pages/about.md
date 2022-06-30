@@ -9,7 +9,7 @@ Hello! It's a pleasure to meet you here! I am Zhou Zhou.
 
 I am a Chinese screenwriter.
 
-After graduating from Beijing Normal University, I got my first job as a screenwriter. I joined a comedy crew in Hunan. Unfortunately, I failed because I couldn't stand the weather. I finished one season's writing, and then I went back to Beijing to get things going.
+After graduating from Beijing Normal University, I got my first job as a screenwriter. I joined a comedy crew in Hunan. Unfortunately, I failed because I couldn't bear the weather. I finished one season's writing, and then I went back to Beijing to get things going.
 
 I resumed writing screenplays and making short films after producing some commercials and promos. Yang Qin's Weekend(a short film)sparked my passion for writing. My friends and I had written some screenplays from 2014 until 2018, and we were stuck. We started looking for a way out. I graduated from Beijing Film Academy after majoring in screenwriting for three years, and now I just start my screenwriting career.
 

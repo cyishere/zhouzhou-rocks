@@ -5,9 +5,9 @@ title: About
 ---
 ![a Chinese Scrennwriter. Writes in English and Chinese.](/assets/images/个人图片-圆形.png "ZhouZhou")
 
-Hello! It's a pleasure to meet you here! I am Zhou Zhou, you can call me Jojo.
+Hello! It's a pleasure to meet you here! I am Zhou Zhou.
 
-I am a Chinese screenwriter. 
+I am a Chinese screenwriter.
 
 After graduating from Beijing Normal University, I got my first job as a screenwriter. I joined a comedy crew in Hunan. Unfortunately, I failed because I couldn't stand the weather. I finished one season's writing, and then I went back to Beijing to get things going.
 

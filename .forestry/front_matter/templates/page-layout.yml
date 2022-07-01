@@ -12,3 +12,15 @@ fields:
   label: Title
   config:
     required: true
+- name: avatar
+  type: file
+  config:
+    maxSize: 64
+  label: Avatar
+  description: If this page needs an image such as avatar, please upload here.
+- name: avatarAlt
+  type: text
+  config:
+    required: false
+  label: Avatar Description
+  description: Describe that avatar.

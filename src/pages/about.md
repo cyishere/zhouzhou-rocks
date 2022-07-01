@@ -1,10 +1,10 @@
 ---
 layout: "@layouts/PageLayout.astro"
 title: About
+avatar: "/assets/images/个人图片-圆形.png"
+avatarAlt: a Chinese Scrennwriter. Writes in English and Chinese.
 
 ---
-![a Chinese Scrennwriter. Writes in English and Chinese.](/assets/images/个人图片-圆形.png "ZhouZhou")
-
 Hello! It's a pleasure to meet you here! I am Zhou Zhou.
 
 I am a Chinese screenwriter.

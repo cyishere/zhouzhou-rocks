@@ -1,6 +1,6 @@
 ---
 project_title: Taste of Home
-cover_image: "/assets/images/p1-2.png"
+cover_image: "/assets/images/poster-of-taste-of-home.JPG"
 cover_alt: Poster of Taste of Home
 caption: |-
   Tang Xin hasn't been home for Chinese New Year in several years because of the parents' significant birth stress. She loves but constantly opposes her parents. She decides to skip the family's spring festival because her doctor's husband needs to stay in the hospital to treat Covid-19 sufferers. Her parents brought her some handmade food to welcome the new year at this time.

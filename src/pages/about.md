@@ -7,7 +7,7 @@ avatarAlt: a Chinese Scrennwriter. Writes in English and Chinese.
 ---
 Hello! It's a pleasure to meet you here! I am Zhou Zhou.
 
-I am a Chinese screenwriter.
+I am a  screenwriter.
 
 After graduating from Beijing Normal University, I got my first job as a screenwriter. I joined a comedy crew in Hunan. Unfortunately, I failed because I couldn't bear the weather. I finished one season's writing, and then I went back to Beijing to get things going.
 

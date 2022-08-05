@@ -34,8 +34,8 @@ const isNavHighlight = (path: string, prefix: string): boolean => {
 
 <script>
   const nav = document.querySelector("nav");
-  const openBtn = document.querySelector(".open");
-  const closeBtn = document.querySelector(".close");
+  const openBtn: HTMLButtonElement = document.querySelector(".open");
+  const closeBtn: HTMLButtonElement = document.querySelector(".close");
 
   openBtn.addEventListener("click", function () {
     this.style.display = "none";
@@ -53,7 +53,6 @@ const isNavHighlight = (path: string, prefix: string): boolean => {
 <style>
   nav {
     font-size: 1.33rem;
-    font-family: var(--ff-secondary);
     display: flex;
     gap: 2rem;
   }

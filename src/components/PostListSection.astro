@@ -5,9 +5,10 @@ export interface Props {
 
 const { title } = Astro.props as Props;
 ---
+
 <section class="articles">
-  <h2>{title}</h2>
-  <slot />
+	<h2>{title}</h2>
+	<slot />
 </section>
 
 <style>
@@ -18,7 +19,7 @@ const { title } = Astro.props as Props;
 	}
 
 	.articles h2 {
-		font-family: var(--ff-secondary);
+		font-family: var(--ff-primary);
 		font-size: 2rem;
 		font-weight: var(--fw-bold);
 		text-align: center;

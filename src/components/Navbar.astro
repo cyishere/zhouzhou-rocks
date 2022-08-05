@@ -34,8 +34,8 @@ const isNavHighlight = (path: string, prefix: string): boolean => {
 
 <script>
   const nav = document.querySelector("nav");
-  const openBtn: HTMLButtonElement = document.querySelector(".open");
-  const closeBtn: HTMLButtonElement = document.querySelector(".close");
+  const openBtn = document.querySelector(".open");
+  const closeBtn = document.querySelector(".close");
 
   openBtn.addEventListener("click", function () {
     this.style.display = "none";

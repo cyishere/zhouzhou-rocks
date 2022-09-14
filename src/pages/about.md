@@ -13,7 +13,7 @@ I'm still learning.
 
 I am looking forward to a writing career and have written several scripts. 
 
-And, Super excited to finish my short film shooting in August! That shortening the distance between visual and screenplay, is very helpful! I hope it will be shown! Yeah！ 
+And I am super excited to finish my short film shooting in August! That shortening the distance between visual and screenplay, is very helpful! I hope it will be shown! Yeah！ 
 
 Back to  writing, here are some of the things I've done：
 

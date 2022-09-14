@@ -5,19 +5,17 @@ avatar: "/assets/images/个人图片-圆形.png"
 avatarAlt: a Chinese Scrennwriter. Writes in English and Chinese.
 
 ---
-Hello you! It's a pleasure to meet you here! I am Zhou Zhou.
+Hello you! How wonderful to meet you here! I am Zhou Zhou.
 
-I am a  screenwriter.
+I was born in Hunan. MA, I recently graduated from Beijing Film Academy as a Screenwriting & Film studies major.
 
-After graduating from Beijing Normal University, I got my first job as a screenwriter. I joined a comedy crew in Hunan. Unfortunately, I failed because I couldn't bear the weather.😭 I finished one season's writing, and then returned to Beijing to get things going.
+I'm still learning. 
 
-I resumed writing screenplays and making short films after producing some commercials and promos. Yang Qin's Weekend (a short film) sparked my passion for writing. My friends and I had written some screenplays from 2014 until 2018, and we were stuck. We started looking for a way out. After majoring in screenwriting for three years, I got a master’s degree in theatre and film at BFA. 
+I am looking forward to a writing career and have written several scripts. 
 
-I'm still learning.
+And, I just finished my short film shooting in August, exciting! That shortening the distance between visual and screenplay, is very helpful! I hope it will be shown! Yeah！ 
 
-I've been testing the waters in several genres while learning to write screenplays. I realize that I'm extremely into the subject of Culture Differences and creating Asian (predominantly female) stories. Not only does some cultural conflict always appear in my daily life, but as more of my friends moved/immigrated to another nation to live, I witnessed their delight and sufferings, which all impacted and hit me profoundly.
-
-Here are some of the things I've done：
+Back to  writing, here are some of the things I've done：
 
 * "Time Difference" and “Beijing Solstice"(both are screenplays for cross-cultural feature films)have won awards in China Film Administration’s script competitions.
 * The short film “Taste of Home" won the gold medal in the 14th Shandong Short film Competition.
@@ -25,3 +23,5 @@ Here are some of the things I've done：
 * Feature Film Screenplay "Lost in years" was short-listed for The Elite project+screenwriting workshop by Wanda Pictures.
 
 _The longlines/synopsises will be shown on the Portfolio page._ ❤️
+
+                                                                                       2022.09

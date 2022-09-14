@@ -7,13 +7,13 @@ avatarAlt: a Chinese Scrennwriter. Writes in English and Chinese.
 ---
 Hello you! How wonderful to meet you here! I am Zhou Zhou.
 
-I was born in Hunan. MA, I recently graduated from Beijing Film Academy as a Screenwriting & Film studies major.
+I was born in Hunan, China. MA, I recently graduated from Beijing Film Academy as a Screenwriting & Film studies major.
 
 I'm still learning. 
 
 I am looking forward to a writing career and have written several scripts. 
 
-And, I just finished my short film shooting in August, exciting! That shortening the distance between visual and screenplay, is very helpful! I hope it will be shown! Yeah！ 
+And, Super excited to finish my short film shooting in August! That shortening the distance between visual and screenplay, is very helpful! I hope it will be shown! Yeah！ 
 
 Back to  writing, here are some of the things I've done：
 

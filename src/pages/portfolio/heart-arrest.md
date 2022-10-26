@@ -10,7 +10,7 @@ caption: |-
 
   * Short Film, 5mins
   * As screenwriter
-  * Director:[ Zhou Liang](https://www.xinpianchang.com/u12066915 "Zhou Liang")
+  * Director: Zhou Liang
   * Aired in 2022
 
 ---

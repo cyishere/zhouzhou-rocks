@@ -25,10 +25,10 @@ This depicts the main character's actions and changes.
 
 This is the most well-known beat sheet; it indicates when anything will happen.
 
-**C. The five-part structure** 
+**C. The five-part structure**
 
 ![](/assets/images/five-parts-structure.png)
 
-It appears to be a five-act structure, so I dubbed it five parts. BFA taught it to me.
+It appears to be a five-act structure, so I dubbed it five parts. BFA taught me.
 
 The professor always emphasized that the climax MUST pay off the entanglements. Quite conducive.

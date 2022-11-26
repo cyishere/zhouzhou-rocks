@@ -37,4 +37,4 @@ The professor always emphasized that the climax MUST pay off the entanglements. 
 
 I used the above structures to write some screenplays, and they were efficient, especially when I didn't know where to begin or how to move the story forward. They are tools that assist me in standing.
 
-But, at times, I can feel hemmed in by all that, so understanding when to use them and when to ignore them is critical.
+But, at times, I can feel hemmed in by all that, so understanding when to use them and when to ignore them is critical. 

@@ -17,6 +17,8 @@ I gathered them together in order to find them quickly.
 
 Syd Field's structure is a three-act structure, as is Snyder's.
 
+**B. Snyder's cheat sheet**
+
 **![](/assets/images/saving-the-cat-1.png)**
 
 This depicts the main character's actions and changes.

@@ -32,3 +32,7 @@ This is the most well-known beat sheet; it indicates when anything will happen.
 It appears to be a five-act structure, so I dubbed it five parts. BFA taught me.
 
 The professor always emphasized that the climax MUST pay off the entanglements. Quite conducive.
+
+I used the above structures to write some screenplays, and they were efficient, especially when I didn't know where to begin or how to move the story forward. They are tools that assist me in standing.
+
+But, at times, I can feel hemmed in by all that, so understanding when to use them and when to ignore them is critical.

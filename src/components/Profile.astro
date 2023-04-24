@@ -1,12 +1,14 @@
 ---
-import { Markdown } from "astro/components";
+import Markdown from "@astrojs/markdown-component";
 
 const { profile } = Astro.props;
 ---
 <section class="profile">
   <img src={profile.frontmatter.avatar} alt="" class="avatar">
   <article class="profile_text">
-    <Markdown class="greeting">{profile.frontmatter.greeting}</Markdown>
+		<div class="greeting">
+			<Markdown>{profile.frontmatter.greeting}</Markdown>
+		</div>
     <p class="sub-greeting">{profile.frontmatter.subGreeting}</p>
     <p class="statement">{profile.frontmatter.statement}</p>
     <p class="sub-statement">{profile.frontmatter.subStatement}</p>

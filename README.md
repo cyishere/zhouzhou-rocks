@@ -5,4 +5,4 @@ A screenwriter's blog.
 ## Tech Stack
 
 - [Astro](https://astro.build/) and [React](https://reactjs.org/);
-- Headless CMS [Forestry](https://forestry.io/).
+- Headless CMS: ~~[Forestry](https://forestry.io/)~~ [TinaCMS](https://tina.io).

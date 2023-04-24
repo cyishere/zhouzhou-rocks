@@ -5,11 +5,10 @@
   "private": true,
   "author": "Chen Yang <cyishere@proton.me>",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "tina": "yarn tinacms dev -c 'yarn dev'"
+    "dev": "tinacms dev -c \"astro dev\"",
+    "start": "tinacms build && astro dev",
+    "build": "tinacms build && astro build",
+    "preview": "tinacms build && astro preview"
   },
   "dependencies": {
     "@astrojs/markdown-component": "^1.0.3",

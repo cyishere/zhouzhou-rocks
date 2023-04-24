@@ -1,16 +1,18 @@
 ---
-layout: "@/layouts/PostLayout.astro"
-date: 2022-05-30T23:33:03.000+08:00
-title:
-  Why Is Everything Everywhere  All At Once Getting Such Polarized Responses
-  In China?
-excerpt:
-  "After watching Everything Everywhere All At Once, audiences in China are
-  in two states: excitement and disappointment. Why? I did several interviews and
-  got some screenplay tips."
-cover: "/assets/images/everything-everywhere-all-at-once-poster.jpeg"
+layout: '@/layouts/PostLayout.astro'
+date: 2022-05-30T15:33:03.000Z
+title: >-
+  Why Is Everything Everywhere  All At Once Getting Such Polarized Responses In
+  China?
+excerpt: >-
+  After watching Everything Everywhere All At Once, audiences in China are in
+  two states: excitement and disappointment. Why? I did several interviews and
+  got some screenplay tips.
+cover: /assets/images/everything-everywhere-all-at-once-poster.jpeg
 coverAlt: A lot of Chinese filmgoers says the film is messy like the poster.
+_template: post_layout
 ---
+
 
 It was really intriguing to hear diverse points of view about _Everything Everywhere All at once_. Some of them adore it; they are ecstatic, thrilled, and inspired. The majority of them are screenwriters or filmmakers, while the others are filmgoers who are disappointed, dissatisfied, and even loathed.
 

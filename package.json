@@ -8,13 +8,16 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "tina": "yarn tinacms dev -c 'yarn dev'"
   },
   "dependencies": {
     "@astrojs/markdown-component": "^1.0.3",
+    "@tinacms/cli": "^1.5.6",
     "astro": "^2.3.0",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "tinacms": "^1.4.6"
   },
   "devDependencies": {
     "@astrojs/react": "^2.1.1",

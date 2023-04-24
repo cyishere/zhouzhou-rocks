@@ -1,7 +1,7 @@
 ---
-import { Markdown } from "astro/components";
-import { ProjectMeta } from "@utils/types";
-import { ButtonLink } from "@components/Button";
+import Markdown from "@astrojs/markdown-component";
+import { ProjectMeta } from "@/utils/types";
+import { ButtonLink } from "@/components/Button";
 
 const { project_title, caption, cover_image, cover_alt, link } = Astro.props as ProjectMeta;
 const alt = cover_alt ? cover_alt : "";

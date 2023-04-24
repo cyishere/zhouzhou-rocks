@@ -1,9 +1,9 @@
 ---
-	import Layout from '@layouts/MainLayout.astro';
-	import PostListSection from "@components/PostListSection.astro";
-	import ProjectList from "@components/ProjectList.astro";
-	import type { ProjectMeta } from '@utils/types';
-	import pageTitle from '@utils/pageTitle';
+	import type { ProjectMeta } from '@/utils/types';
+	import Layout from '@/layouts/MainLayout.astro';
+	import PostListSection from "@/components/PostListSection.astro";
+	import ProjectList from "@/components/ProjectList.astro";
+	import pageTitle from '@/utils/pageTitle';
 
 	const allProjects = await Astro.glob<ProjectMeta>('./*.md');
 	let projects = [...allProjects];

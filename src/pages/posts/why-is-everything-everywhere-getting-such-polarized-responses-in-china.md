@@ -1,15 +1,17 @@
 ---
-layout: "@layouts/PostLayout.astro"
+layout: "@/layouts/PostLayout.astro"
 date: 2022-05-30T23:33:03.000+08:00
-title: Why Is Everything Everywhere  All At Once Getting Such Polarized Responses
+title:
+  Why Is Everything Everywhere  All At Once Getting Such Polarized Responses
   In China?
-excerpt: 'After watching Everything Everywhere All At Once, audiences in China are
+excerpt:
+  "After watching Everything Everywhere All At Once, audiences in China are
   in two states: excitement and disappointment. Why? I did several interviews and
-  got some screenplay tips.'
+  got some screenplay tips."
 cover: "/assets/images/everything-everywhere-all-at-once-poster.jpeg"
 coverAlt: A lot of Chinese filmgoers says the film is messy like the poster.
-
 ---
+
 It was really intriguing to hear diverse points of view about _Everything Everywhere All at once_. Some of them adore it; they are ecstatic, thrilled, and inspired. The majority of them are screenwriters or filmmakers, while the others are filmgoers who are disappointed, dissatisfied, and even loathed.
 
 This situation caused me to think. Why?
@@ -22,8 +24,8 @@ I interviewed some filmgoers and asked them why they didn't like Everything is E
 
 I drew conclusions from their responses:
 
-* The central narrative is flawed. The situation is chaotic. (I lost interest since I couldn't follow the story.)
-* The rationale is illogical or cannot be deduced quickly.
+- The central narrative is flawed. The situation is chaotic. (I lost interest since I couldn't follow the story.)
+- The rationale is illogical or cannot be deduced quickly.
 
 Some Buddhist friends were captivated by the movie's symbols. Unfortunately, these symbols are read by fewer people.
 

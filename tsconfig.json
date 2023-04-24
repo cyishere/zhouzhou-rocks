@@ -8,11 +8,11 @@
     "types": ["vite/client"],
     "baseUrl": ".",
     "paths": {
-      "@layouts/*": ["src/layouts/*"],
-      "@components/*": ["src/components/*"],
-      "@utils/*": ["src/utils/*"],
-      "@sections/*": ["src/sections/*"],
-      "@styles/*": ["src/styles/*"]
+      "@/layouts/*": ["src/layouts/*"],
+      "@/components/*": ["src/components/*"],
+      "@/utils/*": ["src/utils/*"],
+      "@/sections/*": ["src/sections/*"],
+      "@/styles/*": ["src/styles/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

@@ -1,8 +1,8 @@
 import type { FunctionComponent } from "react";
 
+import type { PostMeta } from "@/utils/types";
 import styles from "./Card.module.css";
-import type { PostMeta } from "@utils/types";
-import formatDate from "@utils/formatDate";
+import formatDate from "@/utils/formatDate";
 
 const Card: FunctionComponent<PostMeta> = ({
   date,

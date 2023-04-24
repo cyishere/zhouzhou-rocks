@@ -1,9 +1,9 @@
 ---
-	// import { posts } from "@utils/data";
-	import Layout from '@layouts/MainLayout.astro';
-	import PostListSection from "@components/PostListSection.astro";
-	import PostList from "@components/PostList.astro";
-	import Profile from '@components/Profile.astro';
+	// import { posts } from "@/utils/data";
+	import Layout from '@/layouts/MainLayout.astro';
+	import PostListSection from "@/components/PostListSection.astro";
+	import PostList from "@/components/PostList.astro";
+	import Profile from '@/components/Profile.astro';
 
 	const profiles = await Astro.glob("../sections/profile.md");
 	const profile = profiles[0];

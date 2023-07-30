@@ -14,9 +14,7 @@ caption: >-
 
   * Shortfilm, 12 minutes
 
-  * As a screenwriter and director
-
-  Director: Minjie Huang
+  * As Screenwriter and director
 
   * Award: Bondance International Film Festival, Finalist
 created_at: 2023-07-29T23:00:00.000Z

@@ -14,9 +14,9 @@ caption: >-
 
   * Shortfilm, 12 minutes
 
-  * As Screenwriter and director
+  * As Screenwriter and Director
 
-  * Award: BonDance International Film Festiva, Finalist
+  * Award: BonDance International Film Festiva 2023, Finalist
 created_at: 2023-07-29T23:00:00.000Z
 ---
 

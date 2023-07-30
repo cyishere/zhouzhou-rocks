@@ -12,7 +12,7 @@ caption: >-
 
   * Shortfilm, 12mins
 
-  * As screenwriter & Director
+  * As Screenwriter & Director
 
   * Award: Bondance International Film Festival 2023,Finalist 
 order: 2

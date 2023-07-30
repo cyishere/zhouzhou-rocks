@@ -12,9 +12,7 @@ caption: >-
 
   * Shortfilm, 10mins
 
-  * As screenwriter
-
-  * Director: Minjie Huang
+  * As screenwriter & Director
 
   * Award: The gold medal in the 14th Shandong Short film Competition
 order: 2

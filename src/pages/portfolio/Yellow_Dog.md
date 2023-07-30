@@ -16,7 +16,7 @@ caption: >-
 
   * As Screenwriter and director
 
-  * Award: Bondance International Film Festival, Finalist
+  * Award: BonDance International Film Festiva, Finalist
 created_at: 2023-07-29T23:00:00.000Z
 ---
 

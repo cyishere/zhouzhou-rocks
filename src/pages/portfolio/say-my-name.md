@@ -1,5 +1,5 @@
 ---
-order: 2
+order: 3
 created_at: 2022-05-09T03:04:06.000Z
 project_title: Say my name
 cover_image: /assets/images/poster.jpg
@@ -17,6 +17,5 @@ caption: >-
 
   * Aired in 2021
 link: 'https://www.youtube.com/watch?v=pwS2S7WHNuI'
-_template: portfolio_template
 ---
 

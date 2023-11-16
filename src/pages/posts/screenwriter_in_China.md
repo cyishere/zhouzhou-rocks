@@ -49,8 +49,7 @@ In the context of many male professionals in the industry and the influence of C
 
 What's even more frightening is that when we propose unconventional actions and dramatic situations, resistance and uncomfortable feelings come from the production/distribution side: 
 
-> *Your design is not grounded and realistic enough. We need some chinese-style dramatic and conflicts that the audiances can receive...*
-
+> *Your design is not grounded and realistic enough. We need some chinese-style dramatic and conflicts that the audiances can receive...*\
 > *Although your approach is bold, we're afraid the audience won't buy it!*\
 > *According to our platform's data, audiences prefer melodramatic plots and those types of female characters...*
 

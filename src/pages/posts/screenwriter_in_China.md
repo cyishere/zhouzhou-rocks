@@ -5,11 +5,11 @@ excerpt: >-
   I meet or will meet the problems in the process of screenwriting in China.
   Today is about FEMALE CHARACTERS! 
 date: 2023-11-15T16:00:00.000Z
-cover: /Screenshot 2023-11-16 at 13.07.44.png
+cover: /WechatIMG11.jpg
 coverAlt: female characters
 ---
 
-As one of the writers, the film *[Give You A Candy](https://www.imdb.com/title/tt29803632/?ref_=nv_sr_srsg_0_tt_2_nm_0_q_send%2520you%2520a%2520candy%2520 "give you a candy") *wrapped up in November, and distribution has been scheduled for release next summer.  It's considered a recent development in my work.
+As one of the writers, the film \*[Give You A Candy](https://www.imdb.com/title/tt29803632/?ref_=nv_sr_srsg_0_tt_2_nm_0_q_send%2520you%2520a%2520candy%2520 "give you a candy") \*wrapped up in November, and distribution has been scheduled for release next summer.  It's considered a recent development in my work.
 
 And my screenwriting work is still going on.  One of the TV dramas, For Hire, featuring some urban women’s stories, has entered the final stage of character confirmation with the production team.  In order to negotiate with the distribution platform, the production team hopes that we (my co-writer and I) highlight the characters and plight of these women, emphasizing dramatic tension and core conflicts.  For example, adding labels, referencing counterpart characters (preferably from Chinese films and TV dramas), and so on.
 

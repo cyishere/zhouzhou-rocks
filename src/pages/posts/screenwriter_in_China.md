@@ -19,7 +19,7 @@ Regarding the characters' challenges, we initially listed some modern challenges
 
 Concerning characterisation, we initially listed the personality traits of the characters, along with corresponding plotlines to illustrate their characteristics and dramatic tension.      At the same time, we drew parallels with characters from several movies and made some references, but they shook their head, and said, "You can't just list foreign dramatic characters. We MUST ground them! GROUND! Ground them into Chinese audience ..."    
 
-We got STUCK. （and we knew that situation we could not escape from
+We got STUCK. （and we knew that situation we could not escape from）
 
 Then we did a lot of research, watched a lot of lot of Chinese TV shows，
 

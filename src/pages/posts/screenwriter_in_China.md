@@ -21,7 +21,7 @@ Concerning characterisation, we initially listed the personality traits of the c
 
 We got STUCK. （and we knew that situation we could not escape from
 
-Then we did a lot of research, watched a lot of lot of Chinese TV shows，
+Then we did a lot of research and watched a lot of Chinese TV shows.
 
 Modern urban women in Chinese films and TV dramas,
 
@@ -47,9 +47,12 @@ I don't want to continue listing.
 
 In the context of many male professionals in the industry and the influence of China's patriarchal ideology, the image of women in Chinese films and TV dramas has basically solidified, and the types and action patterns have become stereotyped.
 
-What's even more frightening is that when we propose unconventional actions and dramatic situations, resistance comes from the production/distribution side: your design is not grounded enough, not realistic enough!
+What's even more frightening is that when we propose unconventional actions and dramatic situations, resistance comes from the production/distribution side: 
 
-Although your approach is bold, we're afraid the audience won't buy it! According to our platform's data, audiences prefer melodramatic plots and those types of female characters...
+> Your design is not grounded enough, not realistic enough. We need some chinese-style dramatic and conflicts that the audiances can receive...
+
+> Although your approach is bold, we're afraid the audience won't buy it!\
+> According to our platform's data, audiences prefer melodramatic plots and those types of female characters...
 
 SHOOT ME.
 

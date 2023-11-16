@@ -54,6 +54,6 @@ What's even more frightening is that when we propose unconventional actions and 
 > Although your approach is bold, we're afraid the audience won't buy it!\
 > According to our platform's data, audiences prefer melodramatic plots and those types of female characters...
 
-SHOOT ME.
+OKEY......SHOOT ME.
 
 Mercy this project, mercy the female characters in Chinese films and TV, God! Please.

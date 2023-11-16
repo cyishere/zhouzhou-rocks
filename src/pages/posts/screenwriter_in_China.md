@@ -5,7 +5,7 @@ excerpt: >-
   I have met or am meeting the problems in the process of screenwriting in
   China. Today is about FEMALE CHARACTERS! 
 date: 2023-11-15T16:00:00.000Z
-cover: /Screenshot 2023-11-16 at 13.07.44.png
+cover: /female in china.png
 coverAlt: female characters
 ---
 

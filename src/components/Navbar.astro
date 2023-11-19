@@ -4,7 +4,16 @@ const pathname = new URL(Astro.request.url).pathname;
 const isNavHighlight = (path: string, prefix: string): boolean => {
   const homePage = path === prefix || null;
 
-  return homePage ?? path.slice(1).startsWith(prefix);
+  const isActive = homePage ?? path.slice(1).startsWith(prefix)
+
+  console.log({
+    path,
+    prefix,
+    homePage,
+    isActive
+  })
+
+  return isActive;
 }
 
 type NavLink = {
@@ -37,7 +46,7 @@ const navLinks: NavLink[] = [{
 
 <nav>
   {navLinks.map((navLink) => (
-    <a class={isNavHighlight(pathname, navLink.link.slice(1) ) ? "active" : "" } href={navLink.link}>{navLink.name}</a>
+    <a class={isNavHighlight(pathname, navLink.link === '/' ? navLink.link : navLink.link.slice(1) ) ? "active" : "" } href={navLink.link}>{navLink.name}</a>
   ))}
 </nav>
 

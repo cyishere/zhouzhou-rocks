@@ -2,8 +2,8 @@
 import formatDate from "@/utils/formatDate";
 import Layout from '@/layouts/MainLayout.astro';
 
-const { content } = Astro.props;
-const { title, excerpt, date, cover, coverAlt } = content;
+const { frontmatter } = Astro.props;
+const { title, excerpt, date, cover, coverAlt } = frontmatter;
 
 ---
 
@@ -90,13 +90,24 @@ const { title, excerpt, date, cover, coverAlt } = content;
 
   article::before {
     content: "";
-    background: repeating-linear-gradient(-45deg, hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, 0) 6px, hsl(0, 0%, 70%) 0, hsl(0, 0%, 70%) 8px);
     width: 100%;
     height: 0.4em;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
+    
+    /**
+     * The italic strokes
+     */
+    // background: repeating-linear-gradient(-45deg, hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, 0) 6px, hsl(0, 0%, 70%) 0, hsl(0, 0%, 70%) 8px);
+    /**
+     * The spaced dots
+     */
+    background-image: repeating-linear-gradient(0deg, var(--clr-primary), var(--clr-primary) 3px, transparent 3px, transparent 13px, var(--clr-primary) 13px), repeating-linear-gradient(90deg, var(--clr-primary), var(--clr-primary) 3px, transparent 3px, transparent 13px, var(--clr-primary) 13px), repeating-linear-gradient(180deg, var(--clr-primary), var(--clr-primary) 3px, transparent 3px, transparent 13px, var(--clr-primary) 13px), repeating-linear-gradient(270deg, var(--clr-primary), var(--clr-primary) 3px, transparent 3px, transparent 13px, var(--clr-primary) 13px);
+    background-size: 3px 0%, 100% 3px, 3px 0% , 0% 3px; // left, top, right, bottom
+    background-position: 0 0, 0 0, 100% 0, 0 100%;
+    background-repeat: no-repeat;
   }
 
 

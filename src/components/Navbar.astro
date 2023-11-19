@@ -6,14 +6,39 @@ const isNavHighlight = (path: string, prefix: string): boolean => {
 
   return homePage ?? path.slice(1).startsWith(prefix);
 }
+
+type NavLink = {
+  name: string;
+  link: string;
+}
+
+const navLinks: NavLink[] = [{
+  name: 'Home',
+  link: '/'
+},
+  {
+    name: 'Portfolio',
+    link: '/portfolio'
+  },
+  {
+    name: 'Blog',
+    link: '/posts'
+  },
+  {
+    name: 'About',
+    link: '/about'
+  },
+  {
+    name: 'Contact Me',
+    link: '/contact'
+  },
+]
 ---
 
 <nav>
-  <a class={isNavHighlight(pathname, "/" ) ? "active" : "" } href="/">Home</a>
-  <a class={isNavHighlight(pathname, "portfolio" ) ? "active" : "" } href="/portfolio">Portfolio</a>
-  <a class={isNavHighlight(pathname, "posts" ) ? "active" : "" } href="/posts">Blog</a>
-  <a class={isNavHighlight(pathname, "about" ) ? "active" : "" } href="/about">About</a>
-  <a class={isNavHighlight(pathname, "contact" ) ? "special active" : "special" } href="/contact">Contact Me</a>
+  {navLinks.map((navLink) => (
+    <a class={isNavHighlight(pathname, navLink.link.slice(1) ) ? "active" : "" } href={navLink.link}>{navLink.name}</a>
+  ))}
 </nav>
 
 <button class="btn open">
@@ -37,17 +62,31 @@ const isNavHighlight = (path: string, prefix: string): boolean => {
   const openBtn = document.querySelector(".open");
   const closeBtn = document.querySelector(".close");
 
-  openBtn.addEventListener("click", function () {
-    this.style.display = "none";
-    nav.classList.add("show");
-    closeBtn.style.display = "block";
+  openBtn?.addEventListener("click", function () {
+    if (this instanceof HTMLElement) {
+      this.style.display = "none";
+    }
+    if (nav instanceof HTMLElement) {
+      nav.classList.add("show");
+    }
+    if (closeBtn instanceof HTMLElement) {
+      closeBtn.style.display = "block";
+    }
   });
 
-  closeBtn.addEventListener("click", function () {
-    this.style.display = "none";
-    nav.classList.remove("show");
-    openBtn.style.display = "block";
-  });
+  if (closeBtn instanceof HTMLElement) {
+    closeBtn.addEventListener("click", function () {
+      if (this instanceof HTMLElement) {
+        this.style.display = "none";
+      }
+      if (nav instanceof HTMLElement) {
+        nav.classList.remove("show");
+      }
+      if (openBtn instanceof HTMLElement) {
+        openBtn.style.display = "block";
+      }
+    });
+  }
 </script>
 
 <style>

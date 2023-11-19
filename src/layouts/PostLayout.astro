@@ -4,9 +4,6 @@ import Layout from '@/layouts/MainLayout.astro';
 
 const { frontmatter } = Astro.props;
 const { title, excerpt, date, cover, coverAlt } = frontmatter;
-
-const html = await Astro.slots.render('default');
-console.log('🖖', typeof html)
 ---
 
 <Layout title={title}>

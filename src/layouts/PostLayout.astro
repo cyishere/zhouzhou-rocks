@@ -5,6 +5,8 @@ import Layout from '@/layouts/MainLayout.astro';
 const { frontmatter } = Astro.props;
 const { title, excerpt, date, cover, coverAlt } = frontmatter;
 
+const html = await Astro.slots.render('default');
+console.log('🖖', typeof html)
 ---
 
 <Layout title={title}>
@@ -29,6 +31,16 @@ const { title, excerpt, date, cover, coverAlt } = frontmatter;
     </section>
   </main>
 </Layout>
+
+<script>
+  /**
+   * Make the links in the article opening in a new tab.
+   */
+  const anchors = document.querySelectorAll('article a');
+  anchors.forEach(anchor => {
+    anchor.setAttribute('target', '_blank');
+  });
+</script>
 
 <style>
   .cover {

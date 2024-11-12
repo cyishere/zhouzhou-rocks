@@ -48,11 +48,11 @@ h6 {
 
 html {
   /* colors */
-  --clr-primary: hsl(257deg 27% 36%);
-  --clr-secondary: hsl(258deg 14% 48%);
+  --clr-primary: hsl(0deg 0% 20%);
+  --clr-secondary: hsl(259.4deg, 14.2%, 42.9%);
   --clr-thirdly: hsl(258deg 10% 25%);
   --clr-accent: hsl(31deg 94% 51%);
-  --clr-bg: hsl(17deg 24% 94%);
+  --clr-bg: hsl(0deg 0% 94.5%);
   --clr-white: hsl(0deg 0% 100%);
 
   /* fonts */
